@@ -58,3 +58,10 @@ Append decisions; preserve actual history once project starts.
 - Status: APPROVED untuk alur cadangan versi pertama. Planning Gate masih PENDING.
 - Keputusan: jika nomor calon pengantin tidak dapat dipakai untuk pengiriman otomatis, calon pengantin dapat membuka WhatsApp per tamu dari dasbor dengan pesan dan tautan yang sudah terisi, lalu menekan Kirim sendiri.
 - Bukti: pemilik menjawab “Ya boleh” terhadap usulan tombol Kirim via WhatsApp per tamu.
+
+## D-009 — Model biaya saat peluncuran (24 November 2026 WIB)
+
+- Status: APPROVED untuk model biaya saat peluncuran. Planning Gate masih PENDING.
+- Keputusan: layanan versi pertama gratis bagi calon pengantin. Alur pembayaran pelanggan di luar cakupan rilis awal.
+- Dampak: biaya operasional layanan, termasuk kemungkinan biaya WhatsApp otomatis, masih perlu diperkirakan.
+- Bukti: pemilik memilih “Gratis” saat ditanya bagaimana biaya dikenakan kepada calon pengantin pada versi pertama.

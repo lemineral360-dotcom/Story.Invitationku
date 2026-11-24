@@ -12,6 +12,7 @@
 - Daftar tamu dapat diisi langsung atau diimpor dari Excel. Templat awal ada di [`Template-Daftar-Tamu-Story-Invitationku.xlsx`](../templates/Template-Daftar-Tamu-Story-Invitationku.xlsx). Lihat D-006 di [DECISIONS.md](DECISIONS.md).
 - Nomor pengirim yang dipilih: nomor WhatsApp calon pengantin. Kelayakan pengiriman otomatis masih perlu diperiksa. Lihat D-007 di [DECISIONS.md](DECISIONS.md).
 - Pilihan cadangan versi pertama: kirim via WhatsApp per tamu jika pengiriman otomatis tidak tersedia untuk nomor calon pengantin. Lihat D-008 di [DECISIONS.md](DECISIONS.md).
+- Versi pertama gratis bagi calon pengantin. Lihat D-009 di [DECISIONS.md](DECISIONS.md).
 - Pengujian aplikasi: NOT RUN. Perubahan sesi ini berupa dokumentasi.
-- Langkah berikutnya: tanyakan model biaya untuk calon pengantin pada versi pertama. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
+- Langkah berikutnya: tanyakan apakah tautan undangan sama untuk semua tamu atau dipersonalisasi dengan nama penerima. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
 - Cabang: `main`. Commit awal sesi: `adc7755a798371edcc68893dddd6e13f36cc4a90`.

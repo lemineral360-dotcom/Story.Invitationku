@@ -21,8 +21,9 @@
 
 ## Lingkup
 **Fokus peluncuran:** Undangan pernikahan.
+**Model biaya untuk pelanggan:** Gratis saat peluncuran.
 **Cakupan usulan:** Halaman depan website (landing page), dasbor pelanggan, dan dasbor superadmin. Tautan yang dibagikan mengarah ke halaman undangan untuk tamu.
-**Di luar cakupan versi pertama:** Undangan untuk jenis acara selain pernikahan. Batas fitur lainnya menunggu hasil wawancara.
+**Di luar cakupan versi pertama:** Undangan untuk jenis acara selain pernikahan dan alur pembayaran pelanggan. Batas fitur lainnya menunggu hasil wawancara.
 **Asumsi dan ketergantungan:** Pemilik menginginkan pengiriman undangan sekaligus dari nomor WhatsApp calon pengantin. Perlu memvalidasi kelayakan nomor untuk integrasi resmi, persetujuan penerima, persetujuan templat pesan, dan biaya. Definisi angka di dasbor dan kewenangan tambahan superadmin belum diputuskan.
 
 ## Fitur prioritas
@@ -51,7 +52,7 @@ Alur awal pelanggan: pilih template, edit undangan, masukkan daftar nama dan nom
 Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan backup: [isi sesuai proyek].
 
 ## Pertanyaan terbuka
-- Model biaya bagi calon pengantin saat peluncuran, termasuk apakah ada pembayaran per undangan.
+- Pilihan satu tautan untuk semua tamu atau tautan masing-masing tamu yang menampilkan nama penerima.
 - Aturan akses undangan, rincian konfirmasi kehadiran, serta aturan tampilan dan pengelolaan ucapan tamu.
 - Aturan penanganan nomor tidak valid dan duplikat.
 - Kelayakan integrasi dan persetujuan templat undangan, cara memperoleh persetujuan penerima, biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status dan menghitung undangan yang dibagikan.
