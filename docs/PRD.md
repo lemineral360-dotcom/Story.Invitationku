@@ -23,7 +23,7 @@
 **Fokus peluncuran:** Undangan pernikahan.
 **Model biaya untuk pelanggan:** Gratis saat peluncuran.
 **Cakupan usulan:** Halaman depan website (landing page), dasbor pelanggan, dan dasbor superadmin. Tautan yang dibagikan mengarah ke halaman undangan untuk tamu.
-**Di luar cakupan versi pertama:** Undangan untuk jenis acara selain pernikahan dan alur pembayaran pelanggan. Batas fitur lainnya menunggu hasil wawancara.
+**Di luar cakupan versi pertama:** Undangan untuk jenis acara selain pernikahan, alur pembayaran pelanggan, dan penyusunan tata letak template secara bebas. Batas fitur lainnya menunggu hasil wawancara.
 **Asumsi dan ketergantungan:** Pemilik menginginkan pengiriman undangan sekaligus dari nomor WhatsApp calon pengantin. Perlu memvalidasi kelayakan nomor untuk integrasi resmi, persetujuan penerima, persetujuan templat pesan, dan biaya. Definisi angka di dasbor dan kewenangan tambahan superadmin belum diputuskan.
 
 ## Fitur prioritas
@@ -31,7 +31,7 @@
 |---|---|---|---|---|
 | F-001 | Halaman depan website | Belum ditentukan | Menunggu detail wawancara | Draf |
 | F-002 | Katalog template, pengeditan undangan, dan pembagian tautan ke daftar tamu | Belum ditentukan | Menunggu detail wawancara | Draf |
-| F-003 | Pembuatan template dan pemantauan aktivitas di dasbor superadmin | Belum ditentukan | Menunggu detail wawancara | Draf |
+| F-003 | Pemantauan aktivitas di dasbor superadmin | Belum ditentukan | Menunggu detail wawancara | Draf |
 | F-004 | Isi halaman undangan pernikahan | Wajib | Tamu dapat melihat nama dan foto pasangan, jadwal dan lokasi akad atau pemberkatan serta resepsi, dan galeri foto. | Cakupan disepakati |
 | F-005 | Konfirmasi kehadiran (RSVP) | Wajib | Tamu dapat mengirim konfirmasi kehadiran dari halaman undangan. | Cakupan disepakati |
 | F-006 | Ucapan tamu | Wajib | Tamu dapat mengirim ucapan dari halaman undangan. | Cakupan disepakati |
@@ -39,6 +39,7 @@
 | F-008 | Input dan impor daftar tamu | Wajib | Calon pengantin dapat menambah atau mengoreksi nama dan nomor WhatsApp di dasbor, mengunduh templat Excel, mengunggah .xlsx, dan memeriksa hasil impor sebelum memulai pengiriman. | Cakupan disepakati |
 | F-009 | Kirim via WhatsApp per tamu | Wajib sebagai pilihan cadangan | Jika nomor calon pengantin tidak dapat dipakai untuk pengiriman otomatis, tombol per tamu membuka percakapan WhatsApp untuk nomor tamu tersebut dengan pesan dan tautan yang sudah diisi. Calon pengantin menekan Kirim di WhatsApp. Klik tombol hanya dicatat sebagai pembukaan WhatsApp jika aktivitas itu dilacak. | Cakupan disepakati |
 | F-010 | Tautan undangan khusus per tamu | Wajib | Setiap entri tamu memiliki tautan tersendiri. Saat tautan dibuka, halaman undangan menampilkan nama tamu yang sesuai. Pengiriman WhatsApp otomatis dan per tamu memakai tautan tersebut. Jika tautan diteruskan, halaman dapat dibuka tanpa verifikasi dan tetap menampilkan nama tamu asal. | Cakupan disepakati |
+| F-011 | Pembuatan template dari tata letak siap pakai | Wajib | Superadmin dapat memilih tata letak siap pakai, mengganti warna, font, dan gambar sampul, lalu menerbitkan template ke katalog pelanggan. | Cakupan disepakati |
 
 ### Format daftar tamu Excel
 - Unduhan: [templat daftar tamu](../templates/Template-Daftar-Tamu-Story-Invitationku.xlsx).
@@ -53,10 +54,10 @@ Alur awal pelanggan: pilih template, edit undangan, masukkan daftar nama dan nom
 Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan backup: [isi sesuai proyek].
 
 ## Pertanyaan terbuka
-- Cara superadmin membuat template undangan saat peluncuran.
+- Arti angka “undangan tersebar” pada dasbor superadmin.
 - Rincian konfirmasi kehadiran, termasuk jika tautan diteruskan, serta aturan tampilan dan pengelolaan ucapan tamu.
 - Aturan penanganan nomor tidak valid dan duplikat.
-- Kelayakan integrasi dan persetujuan templat undangan, cara memperoleh persetujuan penerima, biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status dan menghitung undangan yang dibagikan.
+- Kelayakan integrasi dan persetujuan templat undangan, cara memperoleh persetujuan penerima, biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status pengiriman.
 - Wewenang tambahan pemilik di dasbor superadmin.
 
 ## Planning Gate

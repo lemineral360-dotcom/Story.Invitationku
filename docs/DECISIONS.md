@@ -79,3 +79,9 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: siapa pun yang memiliki tautan undangan yang berlaku dapat membukanya langsung tanpa akun atau kode akses, termasuk jika tautan diteruskan.
 - Dampak: halaman tetap menampilkan nama tamu asal. Perlakuan konfirmasi kehadiran jika tautan diteruskan masih perlu dirinci.
 - Bukti: pemilik menjawab “Bisa langsung buka” saat diberi pilihan antara akses langsung dan kode akses.
+
+## D-012 — Pembuatan template dari tata letak siap pakai (24 November 2026 WIB)
+
+- Status: APPROVED untuk alur pembuatan template. Planning Gate masih PENDING.
+- Keputusan: superadmin memilih tata letak siap pakai, bisa mengganti warna, font, dan gambar sampul, lalu menerbitkan template ke katalog pelanggan. Penyusunan tata letak secara bebas berada di luar cakupan versi pertama.
+- Bukti: pemilik memilih “1” dari pilihan tata letak siap pakai atau susun tata letak sendiri.

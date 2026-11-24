@@ -15,6 +15,7 @@
 - Versi pertama gratis bagi calon pengantin. Lihat D-009 di [DECISIONS.md](DECISIONS.md).
 - Setiap tamu mendapat tautan khusus yang menyapa dengan namanya. Lihat D-010 di [DECISIONS.md](DECISIONS.md).
 - Tautan undangan dapat dibuka langsung tanpa akun atau kode akses, termasuk jika diteruskan. Lihat D-011 di [DECISIONS.md](DECISIONS.md).
+- Superadmin membuat template katalog dari tata letak siap pakai dengan pilihan warna, font, dan gambar sampul. Lihat D-012 di [DECISIONS.md](DECISIONS.md).
 - Pengujian aplikasi: NOT RUN. Perubahan sesi ini berupa dokumentasi.
-- Langkah berikutnya: tanyakan cara superadmin membuat template undangan dari dasbor. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
+- Langkah berikutnya: tanyakan arti jumlah undangan tersebar yang ingin dilihat pada dasbor superadmin. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
 - Cabang: `main`. Commit awal sesi: `adc7755a798371edcc68893dddd6e13f36cc4a90`.
