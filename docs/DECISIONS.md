@@ -115,3 +115,10 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: penghapusan template dari katalog tidak memutus tautan undangan yang sudah terbit. Tautan tetap dapat dibuka hingga akhir masa aktifnya. Pilihan masa aktif versi pertama adalah 1 bulan atau 2 bulan.
 - Terbuka: awal perhitungan, cara memilih durasi, perlakuan draf, dan aturan setelah kedaluwarsa.
 - Bukti: pemilik menjawab “Ya boleh” untuk mempertahankan tautan setelah penghapusan template dan menyebut pilihan 1 atau 2 bulan.
+
+## D-017 — Awal masa aktif undangan (24 November 2026 WIB)
+
+- Status: APPROVED untuk awal penghitungan masa aktif. Planning Gate masih PENDING.
+- Keputusan: masa aktif 1 atau 2 bulan dihitung sejak undangan diterbitkan.
+- Bukti: pemilik memilih “Saat undangan diterbitkan” ketika ditanya kapan masa aktif mulai dihitung.
+- Terbuka: pihak yang memilih durasi dan penerapan durasi untuk seluruh tautan undangan.
