@@ -1,14 +1,9 @@
-# Handoff — initial project state
+# Handoff — story.invitationku
 
-Template v3.0 mendukung handoff serial dan parallel terkoordinasi. Ini adalah status awal proyek turunan, bukan approval atau status aplikasi.
-
-- Project: [isi nama repo proyek]
-- Phase: Discovery
-- Planning / Design / Architecture / Release Gate: PENDING / PENDING / PENDING / PENDING
-- Task: P-001 — isi project intake dan PRD.
-- Prior work: belum ada pekerjaan aplikasi.
-- Tests: NOT RUN.
-- Next: baca AGENTS.md dan guides/QUICK_START.md, mulai discovery.
-- Branch / SHA: verifikasi saat sesi dimulai.
-
-Setelah setiap pekerjaan, ganti ringkasan ini dengan keadaan aktual dan gunakan handoff/SESSION-TEMPLATE.md. Pada pekerjaan parallel, integrator memperbarui file pusat. Jangan menyalin status approval master ke proyek baru.
+- Fase: Discovery.
+- Planning / Design / Architecture / Release Gate: PENDING / PENDING / PENDING / PENDING.
+- Tugas: P-001 — wawancara awal dan draf rencana produk. AI pendamping mencatat jawaban pemilik.
+- Hasil: tujuan produk, halaman depan, dasbor pelanggan, dan dasbor superadmin tercatat di [PRD](PRD.md) sebagai draf.
+- Pengujian aplikasi: NOT RUN. Perubahan sesi ini berupa dokumentasi.
+- Langkah berikutnya: minta pemilik menentukan jenis acara untuk peluncuran. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
+- Cabang: `main`. Commit awal sesi: `adc7755a798371edcc68893dddd6e13f36cc4a90`.
