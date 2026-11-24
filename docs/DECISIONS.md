@@ -19,3 +19,9 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: calon pengantin menjadi pelanggan utama versi pertama.
 - Dampak: alur pemilihan template, pengeditan, dan pembagian tautan dirancang berdasarkan kebutuhan calon pengantin yang mengurus undangan pernikahannya sendiri.
 - Bukti: jawaban pemilik pada wawancara Beginner Mode, “Calon pengantin”.
+
+## D-003 — Isi dan fitur halaman undangan (24 November 2026 WIB)
+
+- Status: APPROVED untuk cakupan halaman undangan. Planning Gate masih PENDING.
+- Keputusan: versi pertama memuat nama dan foto pasangan, jadwal dan lokasi akad atau pemberkatan serta resepsi, galeri foto, konfirmasi kehadiran (RSVP), dan kolom ucapan tamu.
+- Bukti: pemilik menjawab “Ya boleh seperti itu” setelah daftar tersebut diajukan pada wawancara Beginner Mode.
