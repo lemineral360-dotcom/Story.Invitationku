@@ -38,3 +38,10 @@ Append decisions; preserve actual history once project starts.
 - Status: APPROVED untuk alur pengguna. Planning Gate masih PENDING.
 - Keputusan: calon pengantin menekan tombol Kirim undangan dari dasbor pelanggan untuk memulai pengiriman sekaligus.
 - Bukti: pemilik memilih “Calon pengantin” saat ditanya siapa yang menekan tombol Kirim undangan saat peluncuran.
+
+## D-006 — Input langsung dan impor Excel (24 November 2026 WIB)
+
+- Status: APPROVED untuk pilihan input daftar tamu. Planning Gate masih PENDING.
+- Keputusan: sediakan input langsung di dasbor dan unggah Excel melalui templat standar.
+- Bukti: pemilik menjawab “Sediakan keduanya” dan meminta templat untuk memudahkan pembacaan oleh sistem.
+- Artefak: [Template-Daftar-Tamu-Story-Invitationku.xlsx](../templates/Template-Daftar-Tamu-Story-Invitationku.xlsx). Nama lembar dan judul kolom ada di PRD.

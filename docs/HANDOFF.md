@@ -9,6 +9,7 @@
 - Isi halaman undangan versi pertama disepakati: informasi pasangan dan acara, galeri, konfirmasi kehadiran, dan ucapan. Lihat D-003 di [DECISIONS.md](DECISIONS.md).
 - Arah pengiriman: calon pengantin memberikan daftar nama dan nomor WhatsApp untuk pengiriman undangan sekaligus. Lihat D-004 di [DECISIONS.md](DECISIONS.md).
 - Calon pengantin memulai pengiriman dari dasbor pelanggan. Lihat D-005 di [DECISIONS.md](DECISIONS.md).
+- Daftar tamu dapat diisi langsung atau diimpor dari Excel. Templat awal ada di [`Template-Daftar-Tamu-Story-Invitationku.xlsx`](../templates/Template-Daftar-Tamu-Story-Invitationku.xlsx). Lihat D-006 di [DECISIONS.md](DECISIONS.md).
 - Pengujian aplikasi: NOT RUN. Perubahan sesi ini berupa dokumentasi.
-- Langkah berikutnya: tanyakan bagaimana calon pengantin memasukkan daftar nama dan nomor WhatsApp tamu. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
+- Langkah berikutnya: tanyakan identitas pengirim yang akan terlihat oleh tamu di WhatsApp. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
 - Cabang: `main`. Commit awal sesi: `adc7755a798371edcc68893dddd6e13f36cc4a90`.

@@ -35,6 +35,13 @@
 | F-005 | Konfirmasi kehadiran (RSVP) | Wajib | Tamu dapat mengirim konfirmasi kehadiran dari halaman undangan. | Cakupan disepakati |
 | F-006 | Ucapan tamu | Wajib | Tamu dapat mengirim ucapan dari halaman undangan. | Cakupan disepakati |
 | F-007 | Pengiriman undangan sekaligus melalui WhatsApp | Diminta untuk versi pertama | Calon pengantin dapat memulai pengiriman dari dasbor pelanggan untuk mengirim tautan undangan ke daftar nama dan nomor WhatsApp tamu dalam satu proses. | Alur utama disepakati, kelayakan layanan menunggu kajian |
+| F-008 | Input dan impor daftar tamu | Wajib | Calon pengantin dapat menambah atau mengoreksi nama dan nomor WhatsApp di dasbor, mengunduh templat Excel, mengunggah .xlsx, dan memeriksa hasil impor sebelum memulai pengiriman. | Cakupan disepakati |
+
+### Format daftar tamu Excel
+- Unduhan: [templat daftar tamu](../templates/Template-Daftar-Tamu-Story-Invitationku.xlsx).
+- Baca lembar `Daftar Tamu`. Baris pertama berisi `Nama Tamu` dan `Nomor WhatsApp`. Data dimulai pada baris kedua. Lembar `Petunjuk` berisi panduan pengisian.
+- Nama dan nomor wajib diisi untuk setiap baris data. Baca nomor sebagai teks agar awalan `0` atau `+` tetap utuh. Abaikan baris yang sepenuhnya kosong.
+- Alur yang diusulkan: perlihatkan hasil impor untuk diperiksa dan dikoreksi sebelum menekan **Kirim undangan**. Pengunggahan file hanya menyiapkan daftar tamu.
 
 ## Alur pengguna
 Alur awal pelanggan: pilih template, edit undangan, masukkan daftar nama dan nomor WhatsApp, lalu mulai pengiriman sekaligus dari dasbor pelanggan. Alur tamu: buka tautan, lihat informasi acara dan galeri, lalu dapat mengonfirmasi kehadiran atau mengirim ucapan. Rincian skenario dan kondisi khusus menyusul.
@@ -44,7 +51,7 @@ Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan bac
 
 ## Pertanyaan terbuka
 - Aturan akses undangan, rincian konfirmasi kehadiran, serta aturan tampilan dan pengelolaan ucapan tamu.
-- Cara calon pengantin memasukkan daftar tamu dan identitas pengirim pesan yang terlihat di WhatsApp.
+- Identitas pengirim pesan yang terlihat oleh tamu di WhatsApp, serta aturan penanganan nomor tidak valid dan duplikat.
 - Persyaratan dan biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status dan menghitung undangan yang dibagikan.
 - Wewenang tambahan pemilik di dasbor superadmin.
 
