@@ -32,3 +32,9 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: calon pengantin memberikan daftar nama dan nomor WhatsApp tamu untuk pengiriman tautan undangan sekaligus ke daftar itu.
 - Terbuka: pihak yang menekan tombol kirim, metode memasukkan daftar, identitas pengirim, biaya dan kelayakan layanan.
 - Bukti: pemilik meminta daftar nama dan nomor WhatsApp dipakai untuk mengirim undangan sekaligus pada wawancara Beginner Mode.
+
+## D-005 — Pihak yang memulai pengiriman WhatsApp (24 November 2026 WIB)
+
+- Status: APPROVED untuk alur pengguna. Planning Gate masih PENDING.
+- Keputusan: calon pengantin menekan tombol Kirim undangan dari dasbor pelanggan untuk memulai pengiriman sekaligus.
+- Bukti: pemilik memilih “Calon pengantin” saat ditanya siapa yang menekan tombol Kirim undangan saat peluncuran.
