@@ -15,7 +15,7 @@
 | Peran | Kebutuhan | Hak akses |
 |---|---|---|
 | Pengunjung | Mengenal layanan dari halaman depan website | Akses halaman depan |
-| Calon pengantin (pelanggan utama) | Memilih template, mengedit undangan, dan membagikan tautan kepada daftar tamu | Dasbor pelanggan. Rincian akses menyusul. |
+| Calon pengantin (pelanggan utama) | Memilih template, mengedit undangan, dan memulai pengiriman WhatsApp sekaligus dari dasbor pelanggan | Dasbor pelanggan. Rincian akses menyusul. |
 | Tamu | Melihat informasi acara dan galeri, mengonfirmasi kehadiran, dan mengirim ucapan | Tautan undangan. Aturan akses menyusul. |
 | Pemilik (superadmin) | Membuat template dan melihat angka kunjungan, jumlah pengguna, serta jumlah undangan yang dibagikan | Dasbor superadmin. Rincian akses menyusul. |
 
@@ -23,7 +23,7 @@
 **Fokus peluncuran:** Undangan pernikahan.
 **Cakupan usulan:** Halaman depan website (landing page), dasbor pelanggan, dan dasbor superadmin. Tautan yang dibagikan mengarah ke halaman undangan untuk tamu.
 **Di luar cakupan versi pertama:** Undangan untuk jenis acara selain pernikahan. Batas fitur lainnya menunggu hasil wawancara.
-**Asumsi dan ketergantungan:** Pemilik menginginkan pengiriman undangan sekaligus melalui WhatsApp. Pihak yang memulai pengiriman, layanan WhatsApp, perkiraan biaya, definisi angka di dasbor, dan kewenangan tambahan superadmin belum diputuskan.
+**Asumsi dan ketergantungan:** Pemilik menginginkan pengiriman undangan sekaligus melalui WhatsApp. Layanan WhatsApp, perkiraan biaya, definisi angka di dasbor, dan kewenangan tambahan superadmin belum diputuskan.
 
 ## Fitur prioritas
 | ID | Fitur | Prioritas | Kriteria penerimaan | Status |
@@ -34,17 +34,17 @@
 | F-004 | Isi halaman undangan pernikahan | Wajib | Tamu dapat melihat nama dan foto pasangan, jadwal dan lokasi akad atau pemberkatan serta resepsi, dan galeri foto. | Cakupan disepakati |
 | F-005 | Konfirmasi kehadiran (RSVP) | Wajib | Tamu dapat mengirim konfirmasi kehadiran dari halaman undangan. | Cakupan disepakati |
 | F-006 | Ucapan tamu | Wajib | Tamu dapat mengirim ucapan dari halaman undangan. | Cakupan disepakati |
-| F-007 | Pengiriman undangan sekaligus melalui WhatsApp | Diminta untuk versi pertama | Tautan undangan dapat dikirim dalam satu proses ke daftar tamu berisi nama dan nomor WhatsApp yang diberikan pelanggan. | Alur dan kelayakan menunggu kajian |
+| F-007 | Pengiriman undangan sekaligus melalui WhatsApp | Diminta untuk versi pertama | Calon pengantin dapat memulai pengiriman dari dasbor pelanggan untuk mengirim tautan undangan ke daftar nama dan nomor WhatsApp tamu dalam satu proses. | Alur utama disepakati, kelayakan layanan menunggu kajian |
 
 ## Alur pengguna
-Alur awal pelanggan: pilih template, edit undangan, lalu berikan daftar nama dan nomor WhatsApp untuk pengiriman tautan undangan sekaligus. Alur tamu: buka tautan, lihat informasi acara dan galeri, lalu dapat mengonfirmasi kehadiran atau mengirim ucapan. Rincian skenario dan kondisi khusus menyusul.
+Alur awal pelanggan: pilih template, edit undangan, masukkan daftar nama dan nomor WhatsApp, lalu mulai pengiriman sekaligus dari dasbor pelanggan. Alur tamu: buka tautan, lihat informasi acara dan galeri, lalu dapat mengonfirmasi kehadiran atau mengirim ucapan. Rincian skenario dan kondisi khusus menyusul.
 
 ## Kebutuhan nonfungsional
 Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan backup: [isi sesuai proyek].
 
 ## Pertanyaan terbuka
 - Aturan akses undangan, rincian konfirmasi kehadiran, serta aturan tampilan dan pengelolaan ucapan tamu.
-- Pihak yang memulai pengiriman (pelanggan atau tim pemilik), cara memasukkan daftar, dan pihak pengirim pesan di WhatsApp.
+- Cara calon pengantin memasukkan daftar tamu dan identitas pengirim pesan yang terlihat di WhatsApp.
 - Persyaratan dan biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status dan menghitung undangan yang dibagikan.
 - Wewenang tambahan pemilik di dasbor superadmin.
 
