@@ -21,7 +21,7 @@ Avoid generic decoration, gratuitous gradients, inconsistent spacing and arbitra
 
 ## Konteks produk
 
-story.invitationku membantu calon pengantin membuat undangan pernikahan gratis dan membagikan tautan khusus ke setiap tamu. Pengunjung pertama landing page perlu memahami hasil yang akan didapat, melihat contoh, dan menemukan cara memulai. Rujukan cakupan adalah [rencana produk v0.2](../docs/PRD.md). Arah visual elegan dan modern sudah dipilih. Alat untuk mockup menunggu pilihan pemilik.
+story.invitationku membantu calon pengantin membuat undangan pernikahan gratis dan membagikan tautan khusus ke setiap tamu. Pengunjung pertama landing page perlu memahami hasil yang akan didapat, melihat contoh, dan menemukan cara memulai. Rujukan cakupan adalah [rencana produk v0.2](../docs/PRD.md). Arah visual elegan dan modern sudah dipilih. Pemilik memilih FigCraft untuk mockup yang dapat diedit.
 
 ## Landing page — urutan untuk sketsa
 
@@ -42,3 +42,11 @@ Pada ponsel, judul dan tombol utama muncul sebelum pratinjau. Bagian pilihan tem
 [Sketsa-Landing-Page-v0.1.pdf](Sketsa-Landing-Page-v0.1.pdf) berisi dua halaman, desktop dan ponsel. Keduanya memakai struktur yang sama. Di desktop pratinjau undangan berdampingan dengan judul. Di ponsel tombol utama tampil sebelum pratinjau, dan kartu template terlihat di bagian berikutnya. Nama, ucapan sapaan, dan nama template adalah contoh sintetis. Kotak silang menandai foto atau gambar pratinjau yang akan dipilih setelah arah visual ditetapkan.
 
 Sketsa ini bersifat statis. Pada 24 November 2026 WIB, pemilik menyetujui posisi tombol utama dan contoh template pada [sketsa v0.1](https://github.com/lemineral360-dotcom/Story.Invitationku/blob/25bf8b0c9d47a844765425675dbbc704d93c485e/design/Sketsa-Landing-Page-v0.1.pdf). Persetujuan ini berlaku untuk penempatan pada sketsa. Mockup visual dan prototipe akan ditinjau pada tahap desain.
+
+### Mockup FigCraft v0.1
+
+[Mockup-Landing-Page-FigCraft-v0.1.svg](Mockup-Landing-Page-FigCraft-v0.1.svg) memuat dua kelompok lapisan, **Desktop** dan **Ponsel**. Teks, tombol, kartu, warna, dan ilustrasi tersusun sebagai elemen SVG terpisah. Contoh nama dan acara bersifat sintetis. Ilustrasi lanskap merupakan aset contoh buatan untuk mockup dan dapat diganti dengan foto pasangan pada revisi berikutnya.
+
+Untuk memasukkan desain ke dokumen aktif, buka **File → Import from file…** pada FigCraft desktop dan pilih SVG. Gunakan **File → Open…** untuk membukanya sebagai dokumen baru, lalu simpan sebagai `.figcraft` jika diperlukan. [Panduan FigCraft](https://craft.wiki/apps/figcraft/workflows/#open-files-from-other-apps)
+
+Struktur SVG, penamaan kelompok, dan keberadaan bagian utama diperiksa. Impor di FigCraft desktop dan uji prototipe belum dijalankan. FigCraft Live belum tersedia di sesi ini. Design Gate masih PENDING.

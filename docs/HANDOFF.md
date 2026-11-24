@@ -24,6 +24,7 @@
 - Calon pengantin memilih durasi aktif 1 atau 2 bulan saat menerbitkan undangan. Lihat D-018 di [DECISIONS.md](DECISIONS.md).
 - Kirim WhatsApp per tamu wajib tersedia. Pengiriman otomatis dapat menyusul setelah peluncuran. Lihat D-019 di [DECISIONS.md](DECISIONS.md).
 - Pemilik menyetujui posisi tombol utama dan contoh template pada sketsa v0.1. Pemilik memilih gaya elegan dan modern untuk landing page. Usulan palet dan tipografi ada di [DESIGN.md](../design/DESIGN.md).
+- Pemilik memilih FigCraft. [Mockup-Landing-Page-FigCraft-v0.1.svg](../design/Mockup-Landing-Page-FigCraft-v0.1.svg) adalah mockup desktop dan ponsel berlapis untuk diimpor. Impor di FigCraft dan prototipe: NOT RUN.
 - Pengujian aplikasi: NOT RUN. Perubahan sesi ini berupa dokumentasi.
-- Langkah berikutnya: pilih alat untuk membuat mockup landing page desktop dan ponsel, lalu lanjutkan prototipe.
+- Langkah berikutnya: tinjau mockup setelah diimpor ke FigCraft, lalu lanjutkan ke keadaan layar dan prototipe.
 - Cabang: `main`. Commit awal sesi: `adc7755a798371edcc68893dddd6e13f36cc4a90`.
