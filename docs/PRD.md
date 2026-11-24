@@ -40,7 +40,8 @@
 | F-009 | Kirim via WhatsApp per tamu | Wajib sebagai pilihan cadangan | Jika nomor calon pengantin tidak dapat dipakai untuk pengiriman otomatis, tombol per tamu membuka percakapan WhatsApp untuk nomor tamu tersebut dengan pesan dan tautan yang sudah diisi. Calon pengantin menekan Kirim di WhatsApp. Klik tombol hanya dicatat sebagai pembukaan WhatsApp jika aktivitas itu dilacak. | Cakupan disepakati |
 | F-010 | Tautan undangan khusus per tamu | Wajib | Setiap entri tamu memiliki tautan tersendiri. Saat tautan dibuka, halaman undangan menampilkan nama tamu yang sesuai. Pengiriman WhatsApp otomatis dan per tamu memakai tautan tersebut. Jika tautan diteruskan, halaman dapat dibuka tanpa verifikasi dan tetap menampilkan nama tamu asal. | Cakupan disepakati |
 | F-011 | Buat Template (Template Builder) | Wajib | Di menu Kelola Template, superadmin dapat memilih tata letak siap pakai, mengganti warna, font, dan gambar sampul, lalu menerbitkan template ke katalog pelanggan. | Cakupan disepakati |
-| F-012 | Daftar Template | Wajib | Di menu Kelola Template, superadmin dapat melihat daftar template, mengurutkannya berdasarkan kategori, dan menghapus template sesuai aturan penghapusan. | Cakupan disepakati. Aturan penghapusan menyusul. |
+| F-012 | Daftar Template | Wajib | Di menu Kelola Template, superadmin dapat melihat daftar template, mengurutkannya berdasarkan kategori, dan menghapus template dari katalog. Template yang dihapus tidak dapat dipilih untuk undangan baru. Undangan yang sudah terbit tetap dapat dibuka sampai masa aktifnya berakhir. | Cakupan disepakati |
+| F-013 | Masa aktif tautan undangan | Wajib | Tersedia pilihan masa aktif 1 bulan atau 2 bulan. Tautan yang sudah kedaluwarsa berhenti menampilkan undangan. | Pilihan durasi disepakati. Awal perhitungan dan rincian kedaluwarsa menyusul. |
 
 ### Format daftar tamu Excel
 - Unduhan: [templat daftar tamu](../templates/Template-Daftar-Tamu-Story-Invitationku.xlsx).
@@ -59,7 +60,8 @@ Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan bac
 - Rincian konfirmasi kehadiran, termasuk jika tautan diteruskan, serta aturan tampilan dan pengelolaan ucapan tamu.
 - Aturan penanganan nomor tidak valid dan duplikat.
 - Kelayakan integrasi dan persetujuan templat undangan, cara memperoleh persetujuan penerima, biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status pengiriman.
-- Aturan penghapusan template yang sudah dipakai oleh pelanggan.
+- Awal perhitungan masa aktif 1 atau 2 bulan, siapa yang memilih durasi, serta apakah durasi berlaku untuk seluruh tautan satu undangan atau per tautan.
+- Dampak penghapusan template dari katalog terhadap draf pelanggan yang belum diterbitkan.
 
 ## Planning Gate
 - [ ] Masalah, tujuan, pengguna, dan scope lengkap

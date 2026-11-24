@@ -108,3 +108,10 @@ Append decisions; preserve actual history once project starts.
 - Dampak: dasbor superadmin tetap berupa ringkasan angka total sesuai D-014. Keputusan ini menjawab letak fitur pembuatan template yang sebelumnya terbuka.
 - Terbuka: penanganan penghapusan template yang sudah dipakai pelanggan.
 - Bukti: pemilik meminta satu menu “Kelola Template” untuk membuat dan mengelola template, termasuk pengurutan kategori dan penghapusan.
+
+## D-016 — Undangan tetap aktif setelah template dihapus dari katalog (24 November 2026 WIB)
+
+- Status: APPROVED untuk kelangsungan undangan yang sudah terbit dan opsi masa aktif. Planning Gate masih PENDING.
+- Keputusan: penghapusan template dari katalog tidak memutus tautan undangan yang sudah terbit. Tautan tetap dapat dibuka hingga akhir masa aktifnya. Pilihan masa aktif versi pertama adalah 1 bulan atau 2 bulan.
+- Terbuka: awal perhitungan, cara memilih durasi, perlakuan draf, dan aturan setelah kedaluwarsa.
+- Bukti: pemilik menjawab “Ya boleh” untuk mempertahankan tautan setelah penghapusan template dan menyebut pilihan 1 atau 2 bulan.
