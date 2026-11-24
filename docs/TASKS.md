@@ -1,12 +1,12 @@
 # Daftar pekerjaan — story.invitationku
 
-All project gates PENDING. Owner assigns tasks; use handoff/TASK-LOCK.md when coordinating multiple agents.
+Planning Gate APPROVED. Design, Architecture and Release Gates PENDING. Owner assigns tasks; use handoff/TASK-LOCK.md when coordinating multiple agents.
 
 | ID | Task | Dependency | Status |
 |---|---|---|---|
 | P-001 | Wawancara awal dan draf rencana produk | none | DONE |
-| P-002 | Tinjauan dan persetujuan rencana oleh pemilik | P-001 | IN PROGRESS |
-| D-001 | UX, design system, prototype | P-002 | TODO |
+| P-002 | Tinjauan dan persetujuan rencana oleh pemilik | P-001 | DONE |
+| D-001 | UX, design system, prototype | P-002 | IN PROGRESS |
 | D-002 | Owner Design Gate | D-001 | TODO |
 | A-001 | Architecture, data, API, security | D-002 | TODO |
 | A-002 | Owner Architecture Gate | A-001 | TODO |
@@ -17,4 +17,4 @@ All project gates PENDING. Owner assigns tasks; use handoff/TASK-LOCK.md when co
 Add real feature tasks, acceptance criteria, owners, branches and evidence when planning. Never mark DONE without evidence.
 
 
-P-001 dikerjakan oleh AI pendamping bersama pemilik proyek di `main`. Bukti P-001: [ringkasan proyek](PROJECT_INTAKE.md) dan [draf PRD v0.2](PRD.md) siap ditinjau. P-002 menunggu persetujuan eksplisit pemilik atas revisi yang ditinjau.
+P-001 dikerjakan oleh AI pendamping bersama pemilik proyek di `main`. Bukti P-001: [ringkasan proyek](PROJECT_INTAKE.md) dan [draf PRD v0.2](PRD.md) siap ditinjau. Bukti P-002: persetujuan pemilik tercatat sebagai D-020 di [DECISIONS.md](DECISIONS.md). D-001 dimulai dengan usulan struktur landing page di [DESIGN.md](../design/DESIGN.md).

@@ -2,7 +2,7 @@
 
 Project / approved revision / tool link / owner / date: [pending]
 
-- [ ] Planning Gate approved
+- [x] Planning Gate approved — D-020 di [DECISIONS.md](../docs/DECISIONS.md).
 - [ ] UX sitemap, flows and wireframes reviewed
 - [ ] Visual direction and foundations reviewed
 - [ ] Tokens resolve; components and applicable states verified

@@ -8,4 +8,4 @@
 - **Perangkat:** ponsel dan desktop.
 - **Desain dan teknologi:** pilihan alat desain dan teknologi untuk proyek ini belum ditetapkan.
 - **Kriteria sukses:** uji alur pilih template, buat undangan, impor daftar, terbitkan, kirim per tamu, terima konfirmasi, dan pantau total berjalan dengan data uji.
-- **Tinjauan:** rencana versi 0.2 serta aturan usulannya tersedia di [PRD](PRD.md). Planning Gate menunggu persetujuan pemilik.
+- **Tinjauan:** [rencana versi 0.2](PRD.md) disetujui pemilik. Bukti Planning Gate tercatat sebagai D-020 di [DECISIONS.md](DECISIONS.md).

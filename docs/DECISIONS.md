@@ -136,3 +136,11 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: tombol kirim WhatsApp per tamu masuk cakupan wajib. Versi pertama boleh diluncurkan jika pengiriman otomatis belum siap.
 - Dampak: pengiriman otomatis dapat menyusul setelah kelayakan nomor, persetujuan pesan, izin penerima, dan biaya diperiksa.
 - Bukti: pemilik menjawab “Ya boleh pertamu” saat ditanya apakah peluncuran boleh dimulai dengan pengiriman per tamu.
+
+## D-020 — Persetujuan Planning Gate v0.2 (24 November 2026 WIB)
+
+- Status: APPROVED.
+- Pemilik yang menyetujui: pemilik story.invitationku melalui wawancara Beginner Mode.
+- Revisi yang ditinjau: [PRD v0.2](https://github.com/lemineral360-dotcom/Story.Invitationku/blob/c769fef330067f6b8f49bcb4d07edec5f204aa26/docs/PRD.md) pada commit `c769fef330067f6b8f49bcb4d07edec5f204aa26`.
+- Bukti: setelah ditanya apakah menyetujui draf rencana untuk lanjut ke desain, pemilik menjawab “Ya bolehbseperti itu, untuk bagian landing page urutannya seperti apa?”.
+- Dampak: tahap desain dimulai. Design Gate, Architecture Gate, dan Release Gate masih PENDING.

@@ -1,6 +1,6 @@
 # Rencana produk — story.invitationku
 
-**Status:** DRAF UNTUK TINJAUAN PEMILIK
+**Status:** DISETUJUI PEMILIK — Planning Gate
 **Versi:** 0.2
 **Pemilik:** Pemilik story.invitationku
 **Intake:** [Ringkasan proyek](PROJECT_INTAKE.md)
@@ -32,7 +32,7 @@ Undangan untuk jenis acara lain, pembayaran pelanggan, serta penyusunan tata let
 |---|---|---|---|
 | F-001 | Halaman depan | Wajib | Pengunjung dapat memahami layanan undangan pernikahan gratis dan menemukan tombol untuk mulai membuat undangan. |
 | F-002 | Katalog dan editor undangan | Wajib | Calon pengantin dapat memilih template terbit, mengisi konten, menyimpan draf, melihat pratinjau, lalu menerbitkan undangan. Draf belum dapat dibuka oleh tamu. |
-| F-003 | Ringkasan dasbor superadmin | Wajib | Dasbor menampilkan angka total. Definisi dan usulan angkanya dirinci di bawah. |
+| F-003 | Ringkasan dasbor superadmin | Wajib | Dasbor menampilkan angka total. Definisi angka dirinci di bawah. |
 | F-004 | Halaman undangan | Wajib | Tamu dapat melihat nama dan foto pasangan, jadwal dan lokasi akad atau pemberkatan serta resepsi, dan galeri foto. |
 | F-005 | Konfirmasi kehadiran (RSVP) | Wajib | Tamu dapat mengirim konfirmasi dari halaman undangan. Calon pengantin dapat melihat hasilnya di dasbor. |
 | F-006 | Ucapan tamu | Wajib | Tamu dapat mengirim ucapan dari halaman undangan. |
@@ -58,11 +58,11 @@ Undangan untuk jenis acara lain, pembayaran pelanggan, serta penyusunan tata let
 4. Tamu membuka tautan aktif, melihat sapaan nama dan isi undangan, lalu dapat mengisi konfirmasi kehadiran atau mengirim ucapan.
 5. Superadmin memantau ringkasan angka total, dan membuat, menerbitkan, atau menghapus template dari menu Kelola Template.
 
-## Usulan aturan untuk ditinjau pemilik
+## Aturan versi awal dan rincian desain
 
 - **Masa aktif:** semua tautan tamu pada satu undangan memakai satu tanggal kedaluwarsa. Setelah itu, tampilkan pemberitahuan bahwa undangan sudah berakhir.
 - **Daftar tamu:** tunjukkan baris yang tidak lengkap atau nomor yang perlu diperbaiki. Tandai nomor yang berulang untuk diperiksa karena satu nomor bisa digunakan oleh beberapa anggota keluarga.
-- **Dasbor superadmin:** tampilkan total kunjungan halaman depan, total akun pelanggan, total undangan dibuat (jumlah undangan, bukan jumlah tautan per tamu), dan total undangan tercatat terkirim. Usulan pencatatan untuk kirim manual: pengantin dapat menekan **Tandai sudah dikirim** setelah mengirim di WhatsApp. Hitung satu kali per tautan tamu yang sudah ditandai, termasuk jika pesan dikirim ulang.
+- **Dasbor superadmin:** tampilkan total kunjungan halaman depan, total akun pelanggan, total undangan dibuat (jumlah undangan, bukan jumlah tautan per tamu), dan total undangan tercatat terkirim. Pencatatan untuk kirim manual: pengantin dapat menekan **Tandai sudah dikirim** setelah mengirim di WhatsApp. Hitung satu kali per tautan tamu yang sudah ditandai, termasuk jika pesan dikirim ulang.
 - **Konfirmasi dan ucapan:** mulai dengan pilihan hadir atau tidak hadir. Karena tautan bisa diteruskan, konfirmasi dari tautan yang sama dikaitkan dengan nama pada tautan itu. Detail perubahan konfirmasi serta tampilan dan moderasi ucapan perlu dirinci pada tahap desain.
 - **Draf dengan template yang dihapus:** pertahankan isi draf dan beri petunjuk untuk memilih template aktif sebelum menerbitkan.
 
@@ -77,8 +77,8 @@ Undangan untuk jenis acara lain, pembayaran pelanggan, serta penyusunan tata let
 ## Planning Gate
 
 - [x] Masalah, tujuan, pengguna, dan lingkup dirangkum dalam draf.
-- [ ] Fitur, prioritas, dan aturan usulan ditinjau dan disetujui pemilik.
+- [x] Fitur, prioritas, dan aturan usulan ditinjau dan disetujui pemilik.
 - [ ] Risiko dan asumsi ditinjau pemilik.
 - [ ] Persetujuan eksplisit pemilik dicatat di docs/DECISIONS.md dengan revisi yang ditinjau.
 
-**Status Planning Gate: PENDING**
+**Status Planning Gate: APPROVED** — 24 November 2026 WIB. Bukti persetujuan revisi v0.2 tercatat pada [D-020](DECISIONS.md).
