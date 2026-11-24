@@ -11,7 +11,7 @@ Avoid generic decoration, gratuitous gradients, inconsistent spacing and arbitra
 
 story.invitationku membantu calon pengantin membuat undangan pernikahan gratis dan membagikan tautan khusus ke setiap tamu. Pengunjung pertama landing page perlu memahami hasil yang akan didapat, melihat contoh, dan menemukan cara memulai. Rujukan cakupan adalah [rencana produk v0.2](../docs/PRD.md). Arah visual dan pilihan alat desain menunggu tinjauan pemilik.
 
-## Landing page — usulan urutan konten
+## Landing page — urutan untuk sketsa
 
 | Urutan | Bagian | Isi dan tindakan |
 |---|---|---|
@@ -23,4 +23,10 @@ story.invitationku membantu calon pengantin membuat undangan pernikahan gratis d
 | 6 | Pertanyaan umum | Jawab pertanyaan tentang biaya, masa aktif 1 atau 2 bulan, dan cara tamu membuka tautan tanpa akun. |
 | 7 | Ajakan penutup dan footer | Ulangi tombol **Buat Undangan Gratis** setelah pertanyaan umum. Tampilkan tautan pendukung yang sudah tersedia. |
 
-Pada ponsel, judul dan tombol utama muncul sebelum pratinjau. Bagian pilihan template langsung mengikuti bagian pembuka. Gunakan contoh desain realistis dengan nama dan data sintetis. Susunan ini adalah usulan struktur konten, dengan tinjauan visual dan prototipe masih menunggu.
+Pada ponsel, judul dan tombol utama muncul sebelum pratinjau. Bagian pilihan template langsung mengikuti bagian pembuka. Gunakan contoh desain realistis dengan nama dan data sintetis. Pemilik menyetujui susunan ini untuk dijadikan sketsa awal pada 24 November 2026 WIB. Tinjauan visual dan prototipe masih menunggu.
+
+### Sketsa v0.1
+
+[Sketsa-Landing-Page-v0.1.pdf](Sketsa-Landing-Page-v0.1.pdf) berisi dua halaman, desktop dan ponsel. Keduanya memakai struktur yang sama. Di desktop pratinjau undangan berdampingan dengan judul. Di ponsel tombol utama tampil sebelum pratinjau, dan kartu template terlihat di bagian berikutnya. Nama, ucapan sapaan, dan nama template adalah contoh sintetis. Kotak silang menandai foto atau gambar pratinjau yang akan dipilih setelah arah visual ditetapkan.
+
+Sketsa ini bersifat statis. Tinjau hierarki, konten, dan letak tombol sebelum menetapkan arahan visual dan membuat prototipe interaktif.

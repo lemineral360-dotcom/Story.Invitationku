@@ -1,9 +1,9 @@
 # Handoff — story.invitationku
 
-- Fase: Design — struktur landing page.
+- Fase: Design — sketsa landing page v0.1.
 - Planning / Design / Architecture / Release Gate: APPROVED / PENDING / PENDING / PENDING.
 - Tugas aktif: D-001 — AI pendamping menyusun UX, arah visual, dan prototipe untuk tinjauan pemilik.
-- Hasil: [rencana v0.2](PRD.md) disetujui pemilik pada D-020. Usulan urutan landing page tercatat di [DESIGN.md](../design/DESIGN.md).
+- Hasil: [rencana v0.2](PRD.md) disetujui pemilik pada D-020. Urutan landing page disetujui untuk sketsa awal. [Sketsa-Landing-Page-v0.1.pdf](../design/Sketsa-Landing-Page-v0.1.pdf) memuat desktop dan ponsel.
 - Keputusan pemilik: peluncuran berfokus pada undangan pernikahan. Lihat [D-001](DECISIONS.md#d-001--jenis-acara-saat-peluncuran-24-november-2026-wib).
 - Pelanggan utama versi pertama: calon pengantin. Lihat keputusan D-002 di [DECISIONS.md](DECISIONS.md).
 - Isi halaman undangan versi pertama disepakati: informasi pasangan dan acara, galeri, konfirmasi kehadiran, dan ucapan. Lihat D-003 di [DECISIONS.md](DECISIONS.md).
@@ -24,5 +24,5 @@
 - Calon pengantin memilih durasi aktif 1 atau 2 bulan saat menerbitkan undangan. Lihat D-018 di [DECISIONS.md](DECISIONS.md).
 - Kirim WhatsApp per tamu wajib tersedia. Pengiriman otomatis dapat menyusul setelah peluncuran. Lihat D-019 di [DECISIONS.md](DECISIONS.md).
 - Pengujian aplikasi: NOT RUN. Perubahan sesi ini berupa dokumentasi.
-- Langkah berikutnya: tinjau urutan landing page bersama pemilik dan tetapkan alat desain sebelum membuat wireframe visual.
+- Langkah berikutnya: tinjau sketsa, lalu tentukan arah visual bersama pemilik sebelum mengembangkan tampilan rinci dan prototipe.
 - Cabang: `main`. Commit awal sesi: `adc7755a798371edcc68893dddd6e13f36cc4a90`.

@@ -17,4 +17,4 @@ Planning Gate APPROVED. Design, Architecture and Release Gates PENDING. Owner as
 Add real feature tasks, acceptance criteria, owners, branches and evidence when planning. Never mark DONE without evidence.
 
 
-P-001 dikerjakan oleh AI pendamping bersama pemilik proyek di `main`. Bukti P-001: [ringkasan proyek](PROJECT_INTAKE.md) dan [draf PRD v0.2](PRD.md) siap ditinjau. Bukti P-002: persetujuan pemilik tercatat sebagai D-020 di [DECISIONS.md](DECISIONS.md). D-001 dimulai dengan usulan struktur landing page di [DESIGN.md](../design/DESIGN.md).
+P-001 dikerjakan oleh AI pendamping bersama pemilik proyek di `main`. Bukti P-001: [ringkasan proyek](PROJECT_INTAKE.md) dan [draf PRD v0.2](PRD.md) siap ditinjau. Bukti P-002: persetujuan pemilik tercatat sebagai D-020 di [DECISIONS.md](DECISIONS.md). D-001 berjalan. Sketsa awal landing page desktop dan ponsel tersedia di [Sketsa-Landing-Page-v0.1.pdf](../design/Sketsa-Landing-Page-v0.1.pdf). Arah visual, layar lain, dan prototipe masih dikerjakan pada tahap desain.
