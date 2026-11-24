@@ -6,7 +6,7 @@
 **Versi:** 0.1
 
 ## Masalah dan tujuan
-- Pelanggan perlu cara mudah untuk membuat undangan digital, menyesuaikan desain siap pakai, dan membagikan tautan kepada daftar tamu.
+- Calon pengantin perlu cara mudah untuk membuat undangan digital, menyesuaikan desain siap pakai, dan membagikan tautan kepada daftar tamu.
 - Pemilik perlu satu tempat untuk membuat template dan memantau aktivitas website.
 - Tujuan terukur: menunggu hasil wawancara.
 - Indikator keberhasilan: menunggu hasil wawancara.
@@ -15,7 +15,7 @@
 | Peran | Kebutuhan | Hak akses |
 |---|---|---|
 | Pengunjung | Mengenal layanan dari halaman depan website | Akses halaman depan |
-| Pelanggan | Memilih template, mengedit undangan, dan membagikan tautan kepada daftar tamu | Dasbor pelanggan. Rincian akses menyusul. |
+| Calon pengantin (pelanggan utama) | Memilih template, mengedit undangan, dan membagikan tautan kepada daftar tamu | Dasbor pelanggan. Rincian akses menyusul. |
 | Tamu | Membuka undangan yang diterima | Tautan undangan. Aturan akses menyusul. |
 | Pemilik (superadmin) | Membuat template dan melihat angka kunjungan, jumlah pengguna, serta jumlah undangan yang dibagikan | Dasbor superadmin. Rincian akses menyusul. |
 
@@ -39,7 +39,7 @@ Alur awal pelanggan: pilih template, edit undangan, lalu bagikan tautan kepada d
 Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan backup: [isi sesuai proyek].
 
 ## Pertanyaan terbuka
-- Siapa pelanggan utama dan fitur apa yang harus tersedia saat peluncuran.
+- Isi dan fitur yang wajib tersedia di halaman undangan tamu saat peluncuran.
 - Cara pelanggan membagikan tautan dan cara menghitung undangan yang dibagikan.
 - Wewenang tambahan pemilik di dasbor superadmin.
 
