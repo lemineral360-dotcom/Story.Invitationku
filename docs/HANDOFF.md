@@ -18,6 +18,7 @@
 - Superadmin membuat template katalog dari tata letak siap pakai dengan pilihan warna, font, dan gambar sampul. Lihat D-012 di [DECISIONS.md](DECISIONS.md).
 - Dasbor superadmin memakai metrik Undangan tercatat terkirim. Klik pembuka WhatsApp tidak menambah angka terkirim. Lihat D-013 di [DECISIONS.md](DECISIONS.md).
 - Halaman dasbor superadmin berupa angka total saja. Lihat D-014 di [DECISIONS.md](DECISIONS.md).
+- Satu menu Kelola Template memuat Template Builder dan Daftar Template dengan pengurutan kategori serta tindakan hapus. Lihat D-015 di [DECISIONS.md](DECISIONS.md).
 - Pengujian aplikasi: NOT RUN. Perubahan sesi ini berupa dokumentasi.
-- Langkah berikutnya: konfirmasi apakah pembuatan template tetap tersedia melalui menu terpisah untuk superadmin. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
+- Langkah berikutnya: tanyakan apa yang harus terjadi jika template yang sudah dipakai pelanggan dihapus dari katalog. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
 - Cabang: `main`. Commit awal sesi: `adc7755a798371edcc68893dddd6e13f36cc4a90`.

@@ -100,3 +100,11 @@ Append decisions; preserve actual history once project starts.
 - Dampak: tampilan dasbor cukup berupa ringkasan total. Daftar akhir metrik dan metode penghitungannya masih terbuka.
 - Terbuka: apakah pembuatan template yang disepakati pada D-012 tetap tersedia melalui menu terpisah atau dikeluarkan dari versi pertama.
 - Bukti: pemilik meminta dasbor superadmin berisi angka total saja, dengan contoh total pengguna dan total undangan.
+
+## D-015 — Satu menu Kelola Template (24 November 2026 WIB)
+
+- Status: APPROVED untuk struktur menu dan cakupan pengelolaan template. Planning Gate masih PENDING.
+- Keputusan: menu Kelola Template untuk superadmin berisi Buat Template (Template Builder) dan Daftar Template. Daftar dapat diurutkan berdasarkan kategori dan menyediakan tindakan hapus. Builder mengikuti alur tata letak siap pakai pada D-012.
+- Dampak: dasbor superadmin tetap berupa ringkasan angka total sesuai D-014. Keputusan ini menjawab letak fitur pembuatan template yang sebelumnya terbuka.
+- Terbuka: penanganan penghapusan template yang sudah dipakai pelanggan.
+- Bukti: pemilik meminta satu menu “Kelola Template” untuk membuat dan mengelola template, termasuk pengurutan kategori dan penghapusan.
