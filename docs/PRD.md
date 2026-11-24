@@ -20,8 +20,9 @@
 | Pemilik (superadmin) | Membuat template dan melihat angka kunjungan, jumlah pengguna, serta jumlah undangan yang dibagikan | Dasbor superadmin. Rincian akses menyusul. |
 
 ## Lingkup
+**Fokus peluncuran:** Undangan pernikahan.
 **Cakupan usulan:** Halaman depan website (landing page), dasbor pelanggan, dan dasbor superadmin. Tautan yang dibagikan mengarah ke halaman undangan untuk tamu.
-**Di luar cakupan versi pertama:** Menunggu prioritas dari pemilik.
+**Di luar cakupan versi pertama:** Undangan untuk jenis acara selain pernikahan. Batas fitur lainnya menunggu hasil wawancara.
 **Asumsi dan ketergantungan:** Cara pengiriman tautan, definisi angka di dasbor, dan kewenangan tambahan superadmin belum diputuskan.
 
 ## Fitur prioritas
@@ -38,7 +39,6 @@ Alur awal pelanggan: pilih template, edit undangan, lalu bagikan tautan kepada d
 Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan backup: [isi sesuai proyek].
 
 ## Pertanyaan terbuka
-- Jenis acara yang akan dilayani saat peluncuran.
 - Siapa pelanggan utama dan fitur apa yang harus tersedia saat peluncuran.
 - Cara pelanggan membagikan tautan dan cara menghitung undangan yang dibagikan.
 - Wewenang tambahan pemilik di dasbor superadmin.
