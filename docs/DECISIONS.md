@@ -65,3 +65,10 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: layanan versi pertama gratis bagi calon pengantin. Alur pembayaran pelanggan di luar cakupan rilis awal.
 - Dampak: biaya operasional layanan, termasuk kemungkinan biaya WhatsApp otomatis, masih perlu diperkirakan.
 - Bukti: pemilik memilih “Gratis” saat ditanya bagaimana biaya dikenakan kepada calon pengantin pada versi pertama.
+
+## D-010 — Tautan undangan khusus per tamu (24 November 2026 WIB)
+
+- Status: APPROVED untuk pilihan tautan. Planning Gate masih PENDING.
+- Keputusan: setiap tamu mendapat tautan undangan khusus yang menampilkan nama tamu tersebut ketika dibuka. Pengiriman WhatsApp otomatis dan per tamu menggunakan tautan khusus.
+- Bukti: pemilik memilih “Nomor 2” pada pilihan antara satu tautan untuk semua tamu dan tautan khusus per tamu.
+- Terbuka: aturan akses ketika tautan diteruskan.
