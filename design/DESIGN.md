@@ -1,15 +1,27 @@
 # Design direction — DRAFT
 Single source of truth for approved visual direction; DESIGN_APPROVAL.md records the approved revision.
 ## Brief
-Product, audience, brand personality, user goals, platform, constraints, references and anti-references: [fill with owner].
-## Direction
-Describe visual concept, typography, color, density, imagery, interaction and rationale. Compare two directions if useful; obtain owner feedback before expanding.
+Landing page untuk calon pengantin yang akan membuat undangan pernikahan digital gratis. Rancang untuk ponsel dan desktop dengan satu ajakan utama yang mudah ditemukan.
+## Direction — Elegan dan modern
+
+Pemilik memilih opsi 2 pada 24 November 2026 WIB. Rincian di bawah adalah usulan untuk mockup pertama. Tinjauan mockup dan Design Gate belum selesai.
+
+| Elemen | Usulan visual |
+|---|---|
+| Latar | Putih `#FFFFFF`; abu kehijauan sangat muda `#F4F6F1` untuk bagian yang perlu dibedakan. |
+| Tombol utama | Hijau zaitun gelap `#3B472E` dengan tulisan putih. Gunakan untuk **Buat Undangan Gratis**. |
+| Teks | `#252922` untuk judul dan isi, `#5D6558` untuk keterangan. |
+| Huruf | Plus Jakarta Sans. Judul tebal, isi reguler, label tombol dan navigasi semi-bold. |
+| Foto dan pratinjau | Satu pratinjau undangan di layar ponsel dengan foto pasangan bercahaya alami. Kartu katalog memperlihatkan contoh undangan dalam gaya yang berbeda. |
+| Tata letak | Ruang kosong yang cukup antara bagian, garis pemisah tipis, tombol sekunder sederhana. Pertahankan urutan dan posisi elemen utama pada sketsa v0.1. |
+
+Pemeriksaan awal warna: rasio kontras tulisan putih pada tombol zaitun adalah 9,87:1. Teks utama pada putih 14,80:1 dan teks keterangan pada putih 6,06:1. Kombinasi warna pada kartu, foto, dan keadaan interaktif ditinjau saat mockup tersedia.
 ## Rules
 Avoid generic decoration, gratuitous gradients, inconsistent spacing and arbitrary components. Use realistic synthetic content. Record source/license for assets. No fixed brand/font is imposed by this kit.
 
 ## Konteks produk
 
-story.invitationku membantu calon pengantin membuat undangan pernikahan gratis dan membagikan tautan khusus ke setiap tamu. Pengunjung pertama landing page perlu memahami hasil yang akan didapat, melihat contoh, dan menemukan cara memulai. Rujukan cakupan adalah [rencana produk v0.2](../docs/PRD.md). Arah visual dan pilihan alat desain menunggu tinjauan pemilik.
+story.invitationku membantu calon pengantin membuat undangan pernikahan gratis dan membagikan tautan khusus ke setiap tamu. Pengunjung pertama landing page perlu memahami hasil yang akan didapat, melihat contoh, dan menemukan cara memulai. Rujukan cakupan adalah [rencana produk v0.2](../docs/PRD.md). Arah visual elegan dan modern sudah dipilih. Alat untuk mockup menunggu pilihan pemilik.
 
 ## Landing page — urutan untuk sketsa
 
@@ -29,11 +41,4 @@ Pada ponsel, judul dan tombol utama muncul sebelum pratinjau. Bagian pilihan tem
 
 [Sketsa-Landing-Page-v0.1.pdf](Sketsa-Landing-Page-v0.1.pdf) berisi dua halaman, desktop dan ponsel. Keduanya memakai struktur yang sama. Di desktop pratinjau undangan berdampingan dengan judul. Di ponsel tombol utama tampil sebelum pratinjau, dan kartu template terlihat di bagian berikutnya. Nama, ucapan sapaan, dan nama template adalah contoh sintetis. Kotak silang menandai foto atau gambar pratinjau yang akan dipilih setelah arah visual ditetapkan.
 
-Sketsa ini bersifat statis. Pada 24 November 2026 WIB, pemilik menyetujui posisi tombol utama dan contoh template pada [sketsa v0.1](https://github.com/lemineral360-dotcom/Story.Invitationku/blob/25bf8b0c9d47a844765425675dbbc704d93c485e/design/Sketsa-Landing-Page-v0.1.pdf). Persetujuan ini berlaku untuk penempatan pada sketsa. Arah visual dan prototipe akan ditinjau pada tahap desain.
-
-### Pilihan arah visual landing page
-
-- **Hangat dan romantis:** putih gading, merah mawar lembut, fotografi pasangan bernuansa hangat, dan huruf judul bergaya undangan cetak.
-- **Elegan dan modern:** putih bersih, aksen hijau zaitun gelap, huruf sederhana, dan ruang kosong yang lebih luas.
-
-Rekomendasi awal adalah hangat dan romantis untuk halaman depan. Katalog tetap dapat memuat undangan dengan berbagai gaya. Pilihan arah visual menunggu keputusan pemilik.
+Sketsa ini bersifat statis. Pada 24 November 2026 WIB, pemilik menyetujui posisi tombol utama dan contoh template pada [sketsa v0.1](https://github.com/lemineral360-dotcom/Story.Invitationku/blob/25bf8b0c9d47a844765425675dbbc704d93c485e/design/Sketsa-Landing-Page-v0.1.pdf). Persetujuan ini berlaku untuk penempatan pada sketsa. Mockup visual dan prototipe akan ditinjau pada tahap desain.
