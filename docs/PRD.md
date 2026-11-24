@@ -16,7 +16,7 @@
 |---|---|---|
 | Pengunjung | Mengenal layanan dari halaman depan website | Akses halaman depan |
 | Calon pengantin (pelanggan utama) | Memilih template, mengedit undangan, dan membagikan tautan kepada daftar tamu | Dasbor pelanggan. Rincian akses menyusul. |
-| Tamu | Membuka undangan yang diterima | Tautan undangan. Aturan akses menyusul. |
+| Tamu | Melihat informasi acara dan galeri, mengonfirmasi kehadiran, dan mengirim ucapan | Tautan undangan. Aturan akses menyusul. |
 | Pemilik (superadmin) | Membuat template dan melihat angka kunjungan, jumlah pengguna, serta jumlah undangan yang dibagikan | Dasbor superadmin. Rincian akses menyusul. |
 
 ## Lingkup
@@ -31,15 +31,18 @@
 | F-001 | Halaman depan website | Belum ditentukan | Menunggu detail wawancara | Draf |
 | F-002 | Katalog template, pengeditan undangan, dan pembagian tautan ke daftar tamu | Belum ditentukan | Menunggu detail wawancara | Draf |
 | F-003 | Pembuatan template dan pemantauan aktivitas di dasbor superadmin | Belum ditentukan | Menunggu detail wawancara | Draf |
+| F-004 | Isi halaman undangan pernikahan | Wajib | Tamu dapat melihat nama dan foto pasangan, jadwal dan lokasi akad atau pemberkatan serta resepsi, dan galeri foto. | Cakupan disepakati |
+| F-005 | Konfirmasi kehadiran (RSVP) | Wajib | Tamu dapat mengirim konfirmasi kehadiran dari halaman undangan. | Cakupan disepakati |
+| F-006 | Ucapan tamu | Wajib | Tamu dapat mengirim ucapan dari halaman undangan. | Cakupan disepakati |
 
 ## Alur pengguna
-Alur awal pelanggan: pilih template, edit undangan, lalu bagikan tautan kepada daftar tamu. Alur tamu: buka tautan untuk melihat undangan. Rincian skenario dan kondisi khusus menyusul.
+Alur awal pelanggan: pilih template, edit undangan, lalu bagikan tautan kepada daftar tamu. Alur tamu: buka tautan, lihat informasi acara dan galeri, lalu dapat mengonfirmasi kehadiran atau mengirim ucapan. Rincian skenario dan kondisi khusus menyusul.
 
 ## Kebutuhan nonfungsional
 Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan backup: [isi sesuai proyek].
 
 ## Pertanyaan terbuka
-- Isi dan fitur yang wajib tersedia di halaman undangan tamu saat peluncuran.
+- Aturan akses undangan, rincian konfirmasi kehadiran, serta aturan tampilan dan pengelolaan ucapan tamu.
 - Cara pelanggan membagikan tautan dan cara menghitung undangan yang dibagikan.
 - Wewenang tambahan pemilik di dasbor superadmin.
 
