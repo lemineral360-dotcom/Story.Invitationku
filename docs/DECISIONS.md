@@ -85,3 +85,10 @@ Append decisions; preserve actual history once project starts.
 - Status: APPROVED untuk alur pembuatan template. Planning Gate masih PENDING.
 - Keputusan: superadmin memilih tata letak siap pakai, bisa mengganti warna, font, dan gambar sampul, lalu menerbitkan template ke katalog pelanggan. Penyusunan tata letak secara bebas berada di luar cakupan versi pertama.
 - Bukti: pemilik memilih “1” dari pilihan tata letak siap pakai atau susun tata letak sendiri.
+
+## D-013 — Jumlah undangan tercatat terkirim (24 November 2026 WIB)
+
+- Status: APPROVED untuk definisi metrik dasbor superadmin. Planning Gate masih PENDING.
+- Keputusan: gunakan jumlah undangan yang pengirimannya tercatat berhasil sebagai metrik “Undangan tercatat terkirim”. Klik yang membuka WhatsApp tidak dihitung sebagai pengiriman berhasil. Pembuatan tautan dan pembukaan undangan juga tidak dihitung sebagai pengiriman berhasil.
+- Bukti: pemilik memilih “Undangan tercatat terkirim” dari opsi tautan siap dibagikan, tercatat terkirim, dan dibuka.
+- Terbuka: sumber catatan untuk pengiriman manual, serta perlakuan untuk pengiriman ulang.

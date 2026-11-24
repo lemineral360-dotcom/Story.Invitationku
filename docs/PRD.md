@@ -17,7 +17,7 @@
 | Pengunjung | Mengenal layanan dari halaman depan website | Akses halaman depan |
 | Calon pengantin (pelanggan utama) | Memilih template, mengedit undangan, dan memulai pengiriman WhatsApp sekaligus dari dasbor pelanggan | Dasbor pelanggan. Rincian akses menyusul. |
 | Tamu | Melihat informasi acara dan galeri, mengonfirmasi kehadiran, dan mengirim ucapan | Siapa pun yang memiliki tautan khusus yang berlaku dapat membuka undangan langsung tanpa akun atau kode akses. |
-| Pemilik (superadmin) | Membuat template dan melihat angka kunjungan, jumlah pengguna, serta jumlah undangan yang dibagikan | Dasbor superadmin. Rincian akses menyusul. |
+| Pemilik (superadmin) | Membuat template dan melihat angka kunjungan, jumlah pengguna, serta jumlah undangan tercatat terkirim | Dasbor superadmin. Rincian akses menyusul. |
 
 ## Lingkup
 **Fokus peluncuran:** Undangan pernikahan.
@@ -31,7 +31,7 @@
 |---|---|---|---|---|
 | F-001 | Halaman depan website | Belum ditentukan | Menunggu detail wawancara | Draf |
 | F-002 | Katalog template, pengeditan undangan, dan pembagian tautan ke daftar tamu | Belum ditentukan | Menunggu detail wawancara | Draf |
-| F-003 | Pemantauan aktivitas di dasbor superadmin | Belum ditentukan | Menunggu detail wawancara | Draf |
+| F-003 | Pemantauan aktivitas di dasbor superadmin | Wajib | Dasbor menampilkan angka kunjungan, jumlah pengguna, dan jumlah undangan tercatat terkirim. Angka terkirim berasal dari catatan pengiriman yang berhasil. Klik yang membuka WhatsApp, pembuatan tautan, dan pembukaan undangan tidak dihitung sebagai pengiriman berhasil. | Definisi metrik terkirim disepakati. Sumber catatan kirim manual menunggu keputusan. |
 | F-004 | Isi halaman undangan pernikahan | Wajib | Tamu dapat melihat nama dan foto pasangan, jadwal dan lokasi akad atau pemberkatan serta resepsi, dan galeri foto. | Cakupan disepakati |
 | F-005 | Konfirmasi kehadiran (RSVP) | Wajib | Tamu dapat mengirim konfirmasi kehadiran dari halaman undangan. | Cakupan disepakati |
 | F-006 | Ucapan tamu | Wajib | Tamu dapat mengirim ucapan dari halaman undangan. | Cakupan disepakati |
@@ -54,7 +54,7 @@ Alur awal pelanggan: pilih template, edit undangan, masukkan daftar nama dan nom
 Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan backup: [isi sesuai proyek].
 
 ## Pertanyaan terbuka
-- Arti angka “undangan tersebar” pada dasbor superadmin.
+- Cara mencatat kirim manual sebagai terkirim, dan apakah pengiriman ulang tautan yang sama dihitung lagi.
 - Rincian konfirmasi kehadiran, termasuk jika tautan diteruskan, serta aturan tampilan dan pengelolaan ucapan tamu.
 - Aturan penanganan nomor tidak valid dan duplikat.
 - Kelayakan integrasi dan persetujuan templat undangan, cara memperoleh persetujuan penerima, biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status pengiriman.
