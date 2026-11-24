@@ -1,9 +1,9 @@
 # Handoff — story.invitationku
 
-- Fase: Discovery.
+- Fase: Planning — draf untuk tinjauan pemilik.
 - Planning / Design / Architecture / Release Gate: PENDING / PENDING / PENDING / PENDING.
 - Tugas: P-001 — wawancara awal dan draf rencana produk. AI pendamping mencatat jawaban pemilik.
-- Hasil: tujuan produk, halaman depan, dasbor pelanggan, dan dasbor superadmin tercatat di [PRD](PRD.md) sebagai draf.
+- Hasil: [ringkasan proyek](PROJECT_INTAKE.md) dan [draf rencana v0.2](PRD.md) siap ditinjau. P-001 selesai menyiapkan draf, P-002 menunggu keputusan pemilik.
 - Keputusan pemilik: peluncuran berfokus pada undangan pernikahan. Lihat [D-001](DECISIONS.md#d-001--jenis-acara-saat-peluncuran-24-november-2026-wib).
 - Pelanggan utama versi pertama: calon pengantin. Lihat keputusan D-002 di [DECISIONS.md](DECISIONS.md).
 - Isi halaman undangan versi pertama disepakati: informasi pasangan dan acara, galeri, konfirmasi kehadiran, dan ucapan. Lihat D-003 di [DECISIONS.md](DECISIONS.md).
@@ -22,6 +22,7 @@
 - Undangan yang sudah terbit tetap bisa dibuka hingga masa aktifnya berakhir meskipun template dihapus dari katalog. Pilihan durasi 1 atau 2 bulan. Lihat D-016 di [DECISIONS.md](DECISIONS.md).
 - Masa aktif tautan mulai dihitung saat undangan diterbitkan. Lihat D-017 di [DECISIONS.md](DECISIONS.md).
 - Calon pengantin memilih durasi aktif 1 atau 2 bulan saat menerbitkan undangan. Lihat D-018 di [DECISIONS.md](DECISIONS.md).
+- Kirim WhatsApp per tamu wajib tersedia. Pengiriman otomatis dapat menyusul setelah peluncuran. Lihat D-019 di [DECISIONS.md](DECISIONS.md).
 - Pengujian aplikasi: NOT RUN. Perubahan sesi ini berupa dokumentasi.
-- Langkah berikutnya: tanyakan apakah pengiriman WhatsApp otomatis wajib siap sebelum peluncuran. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
+- Langkah berikutnya: minta pemilik meninjau draf v0.2, terutama aturan yang masih berupa usulan. Catat persetujuan Planning Gate hanya jika pemilik menyetujuinya secara eksplisit.
 - Cabang: `main`. Commit awal sesi: `adc7755a798371edcc68893dddd6e13f36cc4a90`.

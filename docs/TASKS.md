@@ -4,8 +4,8 @@ All project gates PENDING. Owner assigns tasks; use handoff/TASK-LOCK.md when co
 
 | ID | Task | Dependency | Status |
 |---|---|---|---|
-| P-001 | Wawancara awal dan draf rencana produk | none | IN PROGRESS |
-| P-002 | Owner Planning Gate | P-001 | TODO |
+| P-001 | Wawancara awal dan draf rencana produk | none | DONE |
+| P-002 | Tinjauan dan persetujuan rencana oleh pemilik | P-001 | IN PROGRESS |
 | D-001 | UX, design system, prototype | P-002 | TODO |
 | D-002 | Owner Design Gate | D-001 | TODO |
 | A-001 | Architecture, data, API, security | D-002 | TODO |
@@ -17,4 +17,4 @@ All project gates PENDING. Owner assigns tasks; use handoff/TASK-LOCK.md when co
 Add real feature tasks, acceptance criteria, owners, branches and evidence when planning. Never mark DONE without evidence.
 
 
-P-001 dikerjakan oleh AI pendamping bersama pemilik proyek di `main`. Draf awal ada di [PRD](PRD.md). Selesai ketika tujuan, pengguna, cakupan, prioritas, dan asumsi rilis pertama siap ditinjau pemilik.
+P-001 dikerjakan oleh AI pendamping bersama pemilik proyek di `main`. Bukti P-001: [ringkasan proyek](PROJECT_INTAKE.md) dan [draf PRD v0.2](PRD.md) siap ditinjau. P-002 menunggu persetujuan eksplisit pemilik atas revisi yang ditinjau.

@@ -129,3 +129,10 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: calon pengantin memilih durasi 1 bulan atau 2 bulan saat menerbitkan undangan.
 - Bukti: pemilik menjawab “Calon pengantin” ketika ditanya siapa yang memilih durasi.
 - Usulan terkait: satu tanggal kedaluwarsa untuk semua tautan tamu pada undangan yang sama. Penerapan ini belum disetujui secara terpisah.
+
+## D-019 — Versi pertama boleh rilis dengan WhatsApp per tamu (24 November 2026 WIB)
+
+- Status: APPROVED untuk prioritas pengiriman saat peluncuran. Planning Gate dan Release Gate masih PENDING.
+- Keputusan: tombol kirim WhatsApp per tamu masuk cakupan wajib. Versi pertama boleh diluncurkan jika pengiriman otomatis belum siap.
+- Dampak: pengiriman otomatis dapat menyusul setelah kelayakan nomor, persetujuan pesan, izin penerima, dan biaya diperiksa.
+- Bukti: pemilik menjawab “Ya boleh pertamu” saat ditanya apakah peluncuran boleh dimulai dengan pengiriman per tamu.
