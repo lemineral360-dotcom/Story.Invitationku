@@ -1,10 +1,10 @@
-# Task Board — initial project state
+# Daftar pekerjaan — story.invitationku
 
 All project gates PENDING. Owner assigns tasks; use handoff/TASK-LOCK.md when coordinating multiple agents.
 
 | ID | Task | Dependency | Status |
 |---|---|---|---|
-| P-001 | Discovery, intake, PRD | none | TODO |
+| P-001 | Wawancara awal dan draf rencana produk | none | IN PROGRESS |
 | P-002 | Owner Planning Gate | P-001 | TODO |
 | D-001 | UX, design system, prototype | P-002 | TODO |
 | D-002 | Owner Design Gate | D-001 | TODO |
@@ -15,3 +15,6 @@ All project gates PENDING. Owner assigns tasks; use handoff/TASK-LOCK.md when co
 | R-001 | Owner Release Gate | Q-001 | TODO |
 
 Add real feature tasks, acceptance criteria, owners, branches and evidence when planning. Never mark DONE without evidence.
+
+
+P-001 dikerjakan oleh AI pendamping bersama pemilik proyek di `main`. Draf awal ada di [PRD](PRD.md). Selesai ketika tujuan, pengguna, cakupan, prioritas, dan asumsi rilis pertama siap ditinjau pemilik.
