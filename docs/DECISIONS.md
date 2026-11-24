@@ -72,3 +72,10 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: setiap tamu mendapat tautan undangan khusus yang menampilkan nama tamu tersebut ketika dibuka. Pengiriman WhatsApp otomatis dan per tamu menggunakan tautan khusus.
 - Bukti: pemilik memilih “Nomor 2” pada pilihan antara satu tautan untuk semua tamu dan tautan khusus per tamu.
 - Terbuka: aturan akses ketika tautan diteruskan.
+
+## D-011 — Akses langsung melalui tautan undangan (24 November 2026 WIB)
+
+- Status: APPROVED untuk akses halaman undangan. Planning Gate masih PENDING.
+- Keputusan: siapa pun yang memiliki tautan undangan yang berlaku dapat membukanya langsung tanpa akun atau kode akses, termasuk jika tautan diteruskan.
+- Dampak: halaman tetap menampilkan nama tamu asal. Perlakuan konfirmasi kehadiran jika tautan diteruskan masih perlu dirinci.
+- Bukti: pemilik menjawab “Bisa langsung buka” saat diberi pilihan antara akses langsung dan kode akses.
