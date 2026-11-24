@@ -52,3 +52,9 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: tamu menerima undangan dari nomor WhatsApp calon pengantin.
 - Bukti: dalam wawancara Beginner Mode, pemilik menjawab “Dari nomor WhatsApp pengantin”.
 - Kelayakan: [dokumentasi Meta](https://developers.facebook.com/documentation/business-messaging/whatsapp/overview) menjelaskan integrasi resmi untuk nomor WhatsApp Business. [Kebijakan WhatsApp Business](https://business.whatsapp.com/policy/preview?lang=id_ID) mewajibkan izin penerima dan templat pesan yang disetujui untuk memulai percakapan di platform bisnis. Kelayakan nomor dan templat untuk penggunaan proyek ini, biaya, serta pilihan jika nomor tidak memenuhi syarat masih terbuka.
+
+## D-008 — Pilihan cadangan kirim WhatsApp per tamu (24 November 2026 WIB)
+
+- Status: APPROVED untuk alur cadangan versi pertama. Planning Gate masih PENDING.
+- Keputusan: jika nomor calon pengantin tidak dapat dipakai untuk pengiriman otomatis, calon pengantin dapat membuka WhatsApp per tamu dari dasbor dengan pesan dan tautan yang sudah terisi, lalu menekan Kirim sendiri.
+- Bukti: pemilik menjawab “Ya boleh” terhadap usulan tombol Kirim via WhatsApp per tamu.

@@ -36,6 +36,7 @@
 | F-006 | Ucapan tamu | Wajib | Tamu dapat mengirim ucapan dari halaman undangan. | Cakupan disepakati |
 | F-007 | Pengiriman undangan sekaligus melalui WhatsApp | Diminta untuk versi pertama | Calon pengantin dapat memulai pengiriman dari dasbor pelanggan untuk mengirim tautan undangan dari nomor WhatsApp calon pengantin ke daftar tamu dalam satu proses. | Alur utama disepakati, kelayakan layanan menunggu kajian |
 | F-008 | Input dan impor daftar tamu | Wajib | Calon pengantin dapat menambah atau mengoreksi nama dan nomor WhatsApp di dasbor, mengunduh templat Excel, mengunggah .xlsx, dan memeriksa hasil impor sebelum memulai pengiriman. | Cakupan disepakati |
+| F-009 | Kirim via WhatsApp per tamu | Wajib sebagai pilihan cadangan | Jika nomor calon pengantin tidak dapat dipakai untuk pengiriman otomatis, tombol per tamu membuka percakapan WhatsApp untuk nomor tamu tersebut dengan pesan dan tautan yang sudah diisi. Calon pengantin menekan Kirim di WhatsApp. Klik tombol hanya dicatat sebagai pembukaan WhatsApp jika aktivitas itu dilacak. | Cakupan disepakati |
 
 ### Format daftar tamu Excel
 - Unduhan: [templat daftar tamu](../templates/Template-Daftar-Tamu-Story-Invitationku.xlsx).
@@ -44,14 +45,14 @@
 - Alur yang diusulkan: perlihatkan hasil impor untuk diperiksa dan dikoreksi sebelum menekan **Kirim undangan**. Pengunggahan file hanya menyiapkan daftar tamu.
 
 ## Alur pengguna
-Alur awal pelanggan: pilih template, edit undangan, masukkan daftar nama dan nomor WhatsApp, lalu mulai pengiriman sekaligus dari dasbor pelanggan. Alur tamu: buka tautan, lihat informasi acara dan galeri, lalu dapat mengonfirmasi kehadiran atau mengirim ucapan. Rincian skenario dan kondisi khusus menyusul.
+Alur awal pelanggan: pilih template, edit undangan, masukkan daftar nama dan nomor WhatsApp, lalu mulai pengiriman sekaligus dari dasbor pelanggan jika nomornya memenuhi syarat. Jika pengiriman otomatis tidak tersedia untuk nomor tersebut, calon pengantin membuka WhatsApp dari tombol per tamu dan menekan Kirim sendiri. Alur tamu: buka tautan, lihat informasi acara dan galeri, lalu dapat mengonfirmasi kehadiran atau mengirim ucapan. Rincian skenario dan kondisi khusus menyusul.
 
 ## Kebutuhan nonfungsional
 Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan backup: [isi sesuai proyek].
 
 ## Pertanyaan terbuka
+- Model biaya bagi calon pengantin saat peluncuran, termasuk apakah ada pembayaran per undangan.
 - Aturan akses undangan, rincian konfirmasi kehadiran, serta aturan tampilan dan pengelolaan ucapan tamu.
-- Alur untuk calon pengantin yang memakai WhatsApp biasa atau nomornya tidak memenuhi syarat untuk pengiriman otomatis.
 - Aturan penanganan nomor tidak valid dan duplikat.
 - Kelayakan integrasi dan persetujuan templat undangan, cara memperoleh persetujuan penerima, biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status dan menghitung undangan yang dibagikan.
 - Wewenang tambahan pemilik di dasbor superadmin.
