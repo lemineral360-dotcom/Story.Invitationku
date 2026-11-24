@@ -6,3 +6,9 @@ All project approvals PENDING. Starter kit rules are not project approvals. No h
 - Context, options, decision, rationale and impact:
 - Owner approval and exact revision/evidence:
 Append decisions; preserve actual history once project starts.
+
+## D-001 — Jenis acara saat peluncuran (24 November 2026 WIB)
+
+- Status: APPROVED untuk keputusan cakupan ini. Planning Gate masih PENDING.
+- Keputusan: versi pertama berfokus pada undangan pernikahan. Jenis acara lain di luar cakupan versi pertama.
+- Bukti: jawaban pemilik pada wawancara Beginner Mode, “Ya, untuk pertamakali kita fokuskan ke undangan pernikahan”.
