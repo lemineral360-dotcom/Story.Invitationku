@@ -122,3 +122,10 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: masa aktif 1 atau 2 bulan dihitung sejak undangan diterbitkan.
 - Bukti: pemilik memilih “Saat undangan diterbitkan” ketika ditanya kapan masa aktif mulai dihitung.
 - Terbuka: pihak yang memilih durasi dan penerapan durasi untuk seluruh tautan undangan.
+
+## D-018 — Pilihan durasi masa aktif oleh calon pengantin (24 November 2026 WIB)
+
+- Status: APPROVED untuk pihak yang memilih durasi. Planning Gate masih PENDING.
+- Keputusan: calon pengantin memilih durasi 1 bulan atau 2 bulan saat menerbitkan undangan.
+- Bukti: pemilik menjawab “Calon pengantin” ketika ditanya siapa yang memilih durasi.
+- Usulan terkait: satu tanggal kedaluwarsa untuk semua tautan tamu pada undangan yang sama. Penerapan ini belum disetujui secara terpisah.

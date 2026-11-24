@@ -21,6 +21,7 @@
 - Satu menu Kelola Template memuat Template Builder dan Daftar Template dengan pengurutan kategori serta tindakan hapus. Lihat D-015 di [DECISIONS.md](DECISIONS.md).
 - Undangan yang sudah terbit tetap bisa dibuka hingga masa aktifnya berakhir meskipun template dihapus dari katalog. Pilihan durasi 1 atau 2 bulan. Lihat D-016 di [DECISIONS.md](DECISIONS.md).
 - Masa aktif tautan mulai dihitung saat undangan diterbitkan. Lihat D-017 di [DECISIONS.md](DECISIONS.md).
+- Calon pengantin memilih durasi aktif 1 atau 2 bulan saat menerbitkan undangan. Lihat D-018 di [DECISIONS.md](DECISIONS.md).
 - Pengujian aplikasi: NOT RUN. Perubahan sesi ini berupa dokumentasi.
-- Langkah berikutnya: tanyakan siapa yang memilih durasi masa aktif 1 atau 2 bulan. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
+- Langkah berikutnya: tanyakan apakah pengiriman WhatsApp otomatis wajib siap sebelum peluncuran. Lanjutkan Beginner Mode dengan satu pertanyaan per giliran.
 - Cabang: `main`. Commit awal sesi: `adc7755a798371edcc68893dddd6e13f36cc4a90`.

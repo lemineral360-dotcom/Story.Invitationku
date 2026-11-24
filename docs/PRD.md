@@ -41,7 +41,7 @@
 | F-010 | Tautan undangan khusus per tamu | Wajib | Setiap entri tamu memiliki tautan tersendiri. Saat tautan dibuka, halaman undangan menampilkan nama tamu yang sesuai. Pengiriman WhatsApp otomatis dan per tamu memakai tautan tersebut. Jika tautan diteruskan, halaman dapat dibuka tanpa verifikasi dan tetap menampilkan nama tamu asal. | Cakupan disepakati |
 | F-011 | Buat Template (Template Builder) | Wajib | Di menu Kelola Template, superadmin dapat memilih tata letak siap pakai, mengganti warna, font, dan gambar sampul, lalu menerbitkan template ke katalog pelanggan. | Cakupan disepakati |
 | F-012 | Daftar Template | Wajib | Di menu Kelola Template, superadmin dapat melihat daftar template, mengurutkannya berdasarkan kategori, dan menghapus template dari katalog. Template yang dihapus tidak dapat dipilih untuk undangan baru. Undangan yang sudah terbit tetap dapat dibuka sampai masa aktifnya berakhir. | Cakupan disepakati |
-| F-013 | Masa aktif tautan undangan | Wajib | Masa aktif 1 bulan atau 2 bulan dimulai saat undangan diterbitkan. Tautan yang sudah kedaluwarsa berhenti menampilkan undangan. | Durasi dan awal perhitungan disepakati. Pemilihan dan rincian kedaluwarsa menyusul. |
+| F-013 | Masa aktif tautan undangan | Wajib | Calon pengantin memilih 1 bulan atau 2 bulan saat menerbitkan undangan. Masa aktif dimulai saat undangan diterbitkan. Tautan yang sudah kedaluwarsa berhenti menampilkan undangan. | Durasi, pemilih, dan awal perhitungan disepakati. Penerapan ke semua tautan dan rincian kedaluwarsa menyusul. |
 
 ### Format daftar tamu Excel
 - Unduhan: [templat daftar tamu](../templates/Template-Daftar-Tamu-Story-Invitationku.xlsx).
@@ -50,17 +50,18 @@
 - Alur yang diusulkan: perlihatkan hasil impor untuk diperiksa dan dikoreksi sebelum menekan **Kirim undangan**. Pengunggahan file hanya menyiapkan daftar tamu.
 
 ## Alur pengguna
-Alur awal pelanggan: pilih template, edit undangan, masukkan daftar nama dan nomor WhatsApp, terbitkan undangan untuk memulai masa aktif tautan, lalu mulai pengiriman sekaligus dari dasbor pelanggan jika nomornya memenuhi syarat. Jika pengiriman otomatis tidak tersedia untuk nomor tersebut, calon pengantin membuka WhatsApp dari tombol per tamu dan menekan Kirim sendiri. Alur tamu: buka tautan khusus dan lihat sapaan nama, informasi acara, serta galeri, lalu dapat mengonfirmasi kehadiran atau mengirim ucapan. Rincian skenario dan kondisi khusus menyusul.
+Alur awal pelanggan: pilih template, edit undangan, masukkan daftar nama dan nomor WhatsApp, pilih durasi aktif dan terbitkan undangan untuk memulai masa aktif tautan, lalu mulai pengiriman sekaligus dari dasbor pelanggan jika nomornya memenuhi syarat. Jika pengiriman otomatis tidak tersedia untuk nomor tersebut, calon pengantin membuka WhatsApp dari tombol per tamu dan menekan Kirim sendiri. Alur tamu: buka tautan khusus dan lihat sapaan nama, informasi acara, serta galeri, lalu dapat mengonfirmasi kehadiran atau mengirim ucapan. Rincian skenario dan kondisi khusus menyusul.
 
 ## Kebutuhan nonfungsional
 Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan backup: [isi sesuai proyek].
 
 ## Pertanyaan terbuka
+- Apakah versi pertama boleh diluncurkan dengan pengiriman manual per tamu jika pengiriman WhatsApp otomatis belum siap untuk peluncuran.
 - Daftar akhir angka total di dasbor, arti undangan yang dibuat, dan sumber catatan terkirim untuk pengiriman manual.
 - Rincian konfirmasi kehadiran, termasuk jika tautan diteruskan, serta aturan tampilan dan pengelolaan ucapan tamu.
 - Aturan penanganan nomor tidak valid dan duplikat.
 - Kelayakan integrasi dan persetujuan templat undangan, cara memperoleh persetujuan penerima, biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status pengiriman.
-- Siapa yang memilih masa aktif 1 atau 2 bulan, apakah durasi berlaku untuk seluruh tautan satu undangan atau per tautan, serta rincian kedaluwarsa.
+- Usulan: satu tanggal kedaluwarsa untuk semua tautan tamu pada undangan yang sama. Rincian penayangan setelah kedaluwarsa menyusul.
 - Dampak penghapusan template dari katalog terhadap draf pelanggan yang belum diterbitkan.
 
 ## Planning Gate
