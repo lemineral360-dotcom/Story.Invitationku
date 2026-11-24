@@ -31,7 +31,7 @@
 |---|---|---|---|---|
 | F-001 | Halaman depan website | Belum ditentukan | Menunggu detail wawancara | Draf |
 | F-002 | Katalog template, pengeditan undangan, dan pembagian tautan ke daftar tamu | Belum ditentukan | Menunggu detail wawancara | Draf |
-| F-003 | Pemantauan aktivitas di dasbor superadmin | Wajib | Dasbor menampilkan angka kunjungan, jumlah pengguna, dan jumlah undangan tercatat terkirim. Angka terkirim berasal dari catatan pengiriman yang berhasil. Klik yang membuka WhatsApp, pembuatan tautan, dan pembukaan undangan tidak dihitung sebagai pengiriman berhasil. | Definisi metrik terkirim disepakati. Sumber catatan kirim manual menunggu keputusan. |
+| F-003 | Ringkasan angka total di dasbor superadmin | Wajib | Halaman dasbor menampilkan angka total saja, seperti total kunjungan, total pengguna, dan total undangan tercatat terkirim. Total undangan yang dibuat menjadi kandidat angka tambahan. Klik pembuka WhatsApp tidak menambah angka terkirim. | Tampilan angka total disepakati. Daftar akhir metrik dan cara menghitungnya menyusul. |
 | F-004 | Isi halaman undangan pernikahan | Wajib | Tamu dapat melihat nama dan foto pasangan, jadwal dan lokasi akad atau pemberkatan serta resepsi, dan galeri foto. | Cakupan disepakati |
 | F-005 | Konfirmasi kehadiran (RSVP) | Wajib | Tamu dapat mengirim konfirmasi kehadiran dari halaman undangan. | Cakupan disepakati |
 | F-006 | Ucapan tamu | Wajib | Tamu dapat mengirim ucapan dari halaman undangan. | Cakupan disepakati |
@@ -39,7 +39,7 @@
 | F-008 | Input dan impor daftar tamu | Wajib | Calon pengantin dapat menambah atau mengoreksi nama dan nomor WhatsApp di dasbor, mengunduh templat Excel, mengunggah .xlsx, dan memeriksa hasil impor sebelum memulai pengiriman. | Cakupan disepakati |
 | F-009 | Kirim via WhatsApp per tamu | Wajib sebagai pilihan cadangan | Jika nomor calon pengantin tidak dapat dipakai untuk pengiriman otomatis, tombol per tamu membuka percakapan WhatsApp untuk nomor tamu tersebut dengan pesan dan tautan yang sudah diisi. Calon pengantin menekan Kirim di WhatsApp. Klik tombol hanya dicatat sebagai pembukaan WhatsApp jika aktivitas itu dilacak. | Cakupan disepakati |
 | F-010 | Tautan undangan khusus per tamu | Wajib | Setiap entri tamu memiliki tautan tersendiri. Saat tautan dibuka, halaman undangan menampilkan nama tamu yang sesuai. Pengiriman WhatsApp otomatis dan per tamu memakai tautan tersebut. Jika tautan diteruskan, halaman dapat dibuka tanpa verifikasi dan tetap menampilkan nama tamu asal. | Cakupan disepakati |
-| F-011 | Pembuatan template dari tata letak siap pakai | Wajib | Superadmin dapat memilih tata letak siap pakai, mengganti warna, font, dan gambar sampul, lalu menerbitkan template ke katalog pelanggan. | Cakupan disepakati |
+| F-011 | Pembuatan template dari tata letak siap pakai | Wajib | Superadmin dapat memilih tata letak siap pakai, mengganti warna, font, dan gambar sampul, lalu menerbitkan template ke katalog pelanggan. | Alur disepakati. Posisi fitur menunggu konfirmasi setelah dasbor dibatasi ke angka total. |
 
 ### Format daftar tamu Excel
 - Unduhan: [templat daftar tamu](../templates/Template-Daftar-Tamu-Story-Invitationku.xlsx).
@@ -54,11 +54,11 @@ Alur awal pelanggan: pilih template, edit undangan, masukkan daftar nama dan nom
 Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan backup: [isi sesuai proyek].
 
 ## Pertanyaan terbuka
-- Cara mencatat kirim manual sebagai terkirim, dan apakah pengiriman ulang tautan yang sama dihitung lagi.
+- Daftar akhir angka total di dasbor, arti undangan yang dibuat, dan sumber catatan terkirim untuk pengiriman manual.
 - Rincian konfirmasi kehadiran, termasuk jika tautan diteruskan, serta aturan tampilan dan pengelolaan ucapan tamu.
 - Aturan penanganan nomor tidak valid dan duplikat.
 - Kelayakan integrasi dan persetujuan templat undangan, cara memperoleh persetujuan penerima, biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status pengiriman.
-- Wewenang tambahan pemilik di dasbor superadmin.
+- Konfirmasi apakah pembuatan template yang disepakati sebelumnya tetap tersedia lewat menu terpisah untuk superadmin.
 
 ## Planning Gate
 - [ ] Masalah, tujuan, pengguna, dan scope lengkap

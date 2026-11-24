@@ -92,3 +92,11 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: gunakan jumlah undangan yang pengirimannya tercatat berhasil sebagai metrik “Undangan tercatat terkirim”. Klik yang membuka WhatsApp tidak dihitung sebagai pengiriman berhasil. Pembuatan tautan dan pembukaan undangan juga tidak dihitung sebagai pengiriman berhasil.
 - Bukti: pemilik memilih “Undangan tercatat terkirim” dari opsi tautan siap dibagikan, tercatat terkirim, dan dibuka.
 - Terbuka: sumber catatan untuk pengiriman manual, serta perlakuan untuk pengiriman ulang.
+
+## D-014 — Dasbor superadmin berupa angka total (24 November 2026 WIB)
+
+- Status: APPROVED untuk bentuk halaman dasbor. Planning Gate masih PENDING.
+- Keputusan: halaman dasbor superadmin hanya memuat angka total, misalnya total pengguna serta total undangan yang tersebar atau dibuat. Definisi undangan tercatat terkirim tetap tercatat pada D-013.
+- Dampak: tampilan dasbor cukup berupa ringkasan total. Daftar akhir metrik dan metode penghitungannya masih terbuka.
+- Terbuka: apakah pembuatan template yang disepakati pada D-012 tetap tersedia melalui menu terpisah atau dikeluarkan dari versi pertama.
+- Bukti: pemilik meminta dasbor superadmin berisi angka total saja, dengan contoh total pengguna dan total undangan.
