@@ -29,4 +29,11 @@ Pada ponsel, judul dan tombol utama muncul sebelum pratinjau. Bagian pilihan tem
 
 [Sketsa-Landing-Page-v0.1.pdf](Sketsa-Landing-Page-v0.1.pdf) berisi dua halaman, desktop dan ponsel. Keduanya memakai struktur yang sama. Di desktop pratinjau undangan berdampingan dengan judul. Di ponsel tombol utama tampil sebelum pratinjau, dan kartu template terlihat di bagian berikutnya. Nama, ucapan sapaan, dan nama template adalah contoh sintetis. Kotak silang menandai foto atau gambar pratinjau yang akan dipilih setelah arah visual ditetapkan.
 
-Sketsa ini bersifat statis. Tinjau hierarki, konten, dan letak tombol sebelum menetapkan arahan visual dan membuat prototipe interaktif.
+Sketsa ini bersifat statis. Pada 24 November 2026 WIB, pemilik menyetujui posisi tombol utama dan contoh template pada [sketsa v0.1](https://github.com/lemineral360-dotcom/Story.Invitationku/blob/25bf8b0c9d47a844765425675dbbc704d93c485e/design/Sketsa-Landing-Page-v0.1.pdf). Persetujuan ini berlaku untuk penempatan pada sketsa. Arah visual dan prototipe akan ditinjau pada tahap desain.
+
+### Pilihan arah visual landing page
+
+- **Hangat dan romantis:** putih gading, merah mawar lembut, fotografi pasangan bernuansa hangat, dan huruf judul bergaya undangan cetak.
+- **Elegan dan modern:** putih bersih, aksen hijau zaitun gelap, huruf sederhana, dan ruang kosong yang lebih luas.
+
+Rekomendasi awal adalah hangat dan romantis untuk halaman depan. Katalog tetap dapat memuat undangan dengan berbagai gaya. Pilihan arah visual menunggu keputusan pemilik.
