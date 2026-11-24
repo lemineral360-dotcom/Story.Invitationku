@@ -12,3 +12,10 @@ Append decisions; preserve actual history once project starts.
 - Status: APPROVED untuk keputusan cakupan ini. Planning Gate masih PENDING.
 - Keputusan: versi pertama berfokus pada undangan pernikahan. Jenis acara lain di luar cakupan versi pertama.
 - Bukti: jawaban pemilik pada wawancara Beginner Mode, “Ya, untuk pertamakali kita fokuskan ke undangan pernikahan”.
+
+## D-002 — Pelanggan utama saat peluncuran (24 November 2026 WIB)
+
+- Status: APPROVED untuk pilihan pelanggan utama. Planning Gate masih PENDING.
+- Keputusan: calon pengantin menjadi pelanggan utama versi pertama.
+- Dampak: alur pemilihan template, pengeditan, dan pembagian tautan dirancang berdasarkan kebutuhan calon pengantin yang mengurus undangan pernikahannya sendiri.
+- Bukti: jawaban pemilik pada wawancara Beginner Mode, “Calon pengantin”.
