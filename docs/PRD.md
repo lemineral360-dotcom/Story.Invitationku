@@ -23,7 +23,7 @@
 **Fokus peluncuran:** Undangan pernikahan.
 **Cakupan usulan:** Halaman depan website (landing page), dasbor pelanggan, dan dasbor superadmin. Tautan yang dibagikan mengarah ke halaman undangan untuk tamu.
 **Di luar cakupan versi pertama:** Undangan untuk jenis acara selain pernikahan. Batas fitur lainnya menunggu hasil wawancara.
-**Asumsi dan ketergantungan:** Pemilik menginginkan pengiriman undangan sekaligus melalui WhatsApp. Layanan WhatsApp, perkiraan biaya, definisi angka di dasbor, dan kewenangan tambahan superadmin belum diputuskan.
+**Asumsi dan ketergantungan:** Pemilik menginginkan pengiriman undangan sekaligus dari nomor WhatsApp calon pengantin. Perlu memvalidasi kelayakan nomor untuk integrasi resmi, persetujuan penerima, persetujuan templat pesan, dan biaya. Definisi angka di dasbor dan kewenangan tambahan superadmin belum diputuskan.
 
 ## Fitur prioritas
 | ID | Fitur | Prioritas | Kriteria penerimaan | Status |
@@ -34,7 +34,7 @@
 | F-004 | Isi halaman undangan pernikahan | Wajib | Tamu dapat melihat nama dan foto pasangan, jadwal dan lokasi akad atau pemberkatan serta resepsi, dan galeri foto. | Cakupan disepakati |
 | F-005 | Konfirmasi kehadiran (RSVP) | Wajib | Tamu dapat mengirim konfirmasi kehadiran dari halaman undangan. | Cakupan disepakati |
 | F-006 | Ucapan tamu | Wajib | Tamu dapat mengirim ucapan dari halaman undangan. | Cakupan disepakati |
-| F-007 | Pengiriman undangan sekaligus melalui WhatsApp | Diminta untuk versi pertama | Calon pengantin dapat memulai pengiriman dari dasbor pelanggan untuk mengirim tautan undangan ke daftar nama dan nomor WhatsApp tamu dalam satu proses. | Alur utama disepakati, kelayakan layanan menunggu kajian |
+| F-007 | Pengiriman undangan sekaligus melalui WhatsApp | Diminta untuk versi pertama | Calon pengantin dapat memulai pengiriman dari dasbor pelanggan untuk mengirim tautan undangan dari nomor WhatsApp calon pengantin ke daftar tamu dalam satu proses. | Alur utama disepakati, kelayakan layanan menunggu kajian |
 | F-008 | Input dan impor daftar tamu | Wajib | Calon pengantin dapat menambah atau mengoreksi nama dan nomor WhatsApp di dasbor, mengunduh templat Excel, mengunggah .xlsx, dan memeriksa hasil impor sebelum memulai pengiriman. | Cakupan disepakati |
 
 ### Format daftar tamu Excel
@@ -51,8 +51,9 @@ Keamanan, privasi, aksesibilitas, performa, responsivitas, reliabilitas, dan bac
 
 ## Pertanyaan terbuka
 - Aturan akses undangan, rincian konfirmasi kehadiran, serta aturan tampilan dan pengelolaan ucapan tamu.
-- Identitas pengirim pesan yang terlihat oleh tamu di WhatsApp, serta aturan penanganan nomor tidak valid dan duplikat.
-- Persyaratan dan biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status dan menghitung undangan yang dibagikan.
+- Alur untuk calon pengantin yang memakai WhatsApp biasa atau nomornya tidak memenuhi syarat untuk pengiriman otomatis.
+- Aturan penanganan nomor tidak valid dan duplikat.
+- Kelayakan integrasi dan persetujuan templat undangan, cara memperoleh persetujuan penerima, biaya layanan WhatsApp, perlindungan nomor tamu, serta cara mencatat status dan menghitung undangan yang dibagikan.
 - Wewenang tambahan pemilik di dasbor superadmin.
 
 ## Planning Gate

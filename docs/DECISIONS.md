@@ -45,3 +45,10 @@ Append decisions; preserve actual history once project starts.
 - Keputusan: sediakan input langsung di dasbor dan unggah Excel melalui templat standar.
 - Bukti: pemilik menjawab “Sediakan keduanya” dan meminta templat untuk memudahkan pembacaan oleh sistem.
 - Artefak: [Template-Daftar-Tamu-Story-Invitationku.xlsx](../templates/Template-Daftar-Tamu-Story-Invitationku.xlsx). Nama lembar dan judul kolom ada di PRD.
+
+## D-007 — Nomor pengirim undangan (24 November 2026 WIB)
+
+- Status: APPROVED untuk identitas pengirim yang diinginkan. Planning Gate masih PENDING.
+- Keputusan: tamu menerima undangan dari nomor WhatsApp calon pengantin.
+- Bukti: dalam wawancara Beginner Mode, pemilik menjawab “Dari nomor WhatsApp pengantin”.
+- Kelayakan: [dokumentasi Meta](https://developers.facebook.com/documentation/business-messaging/whatsapp/overview) menjelaskan integrasi resmi untuk nomor WhatsApp Business. [Kebijakan WhatsApp Business](https://business.whatsapp.com/policy/preview?lang=id_ID) mewajibkan izin penerima dan templat pesan yang disetujui untuk memulai percakapan di platform bisnis. Kelayakan nomor dan templat untuk penggunaan proyek ini, biaya, serta pilihan jika nomor tidak memenuhi syarat masih terbuka.
